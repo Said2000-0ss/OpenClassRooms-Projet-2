@@ -1,0 +1,29 @@
+
+/************************************************************** FOOTER ***************************************************************/
+
+footer{
+    background-color: #F2F2F2;	
+}
+
+.footerList{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul{
+    width: 446px;
+    line-height: 2em;
+	list-style-type: none;
+}
+
+footer li a{
+    font-weight: normal;
+	color: black;
+}
+
+.footerList__title{
+    font-size: 18px ;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

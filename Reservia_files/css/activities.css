@@ -1,0 +1,145 @@
+/****************************************************THE SECTION2 HAVE FOUR BOXES*******************************************************************/
+ .section2{
+    display: grid;
+	grid-template-columns: 25% 25% 25% 25%;   
+}
+/***************************************BOX1*********************/
+.section2>#box1{
+    grid-column-start: 1;
+	width:302px;
+	height:445px;
+    border-radius: 7px;
+    margin-left: 52px;
+    box-shadow: 8px 8px 12px #aaa; 
+}
+/***************************************BOX2*********************/
+.section2>#box2{
+	grid-column-start: 2;
+	width:302px;
+	height:445px;
+	margin-left:42px;
+	border-radius: 7px;
+    display:grid;
+    grid-template-rows: 60% 40%;
+}
+				.section2>#box2>#box2-1{
+					grid-row-start: 1;
+					width:302px;
+					height:235px;
+					margin-left:0px;
+					margin-right: 0px;
+					margin-top:0px;
+					margin-bottom: 32px;
+					border-radius: 14px;
+					box-shadow: 8px 8px 12px #aaa;
+				}
+
+				.section2>#box2>#box2-2{
+					grid-row-start: 2;
+					width:302px;
+					height:165px;
+					margin-left:0px;
+					margin-right: 0px;
+					margin-bottom:0px;
+					margin-top: 13px;
+					border-radius: 14px;
+					box-shadow: 8px 8px 12px #aaa;
+				}
+/***************************************BOX3*********************/
+.section2>#box3{
+    grid-column-start: 3;
+    border-radius: 7px;
+	width:302px;
+	height:445px;
+    margin-left: 42px;
+    box-shadow: 8px 8px 12px #aaa;
+}
+/***************************************BOX4*********************/
+.section2>#box4{
+	width:302px;
+	height:445px;
+    grid-column-start: 4;
+    border-radius: 7px;
+    margin-left: 42px;
+    margin-right: 54px;
+    display:grid;
+    grid-template-rows: 50% 50%;   
+}
+				.section2>#box4>#box4-1{
+					grid-row-start: 1;
+					width:302px;
+					height:195px;
+					background-color:white;
+					border-radius: 14px;
+					box-shadow: 8px 8px 12px #aaa;
+					margin-bottom:27.5px;
+				}
+
+				.section2>#box4>#box4-2{
+					grid-row-start: 2;
+					width:302px;
+					height:210px;
+					margin-top:12.5px ;   
+					background-color:white;
+					border-radius: 14px;
+					box-shadow: 8px 8px 12px #aaa;
+				}
+/****************************************************THE SECTION2 HAVE FOUR BOXES*******************************************************************/
+/************************PICTURES BOX1*********************/
+#box1>img{
+    width: 302px;
+    height:390px ;
+    border-top-left-radius: 7% ;
+    border-top-right-radius: 7%;
+    object-fit: cover;
+}
+/************************PICTURES BOX2*********************/
+#box2>#box2-1>img{
+    width: 302px;
+    height:180px ;
+    border-top-left-radius: 7% ;
+    border-top-right-radius: 7%;
+    object-fit: cover; 
+}
+#box2>#box2-2>img{
+    width: 302px;
+    height:110px ;
+    border-top-left-radius: 7% ;
+    border-top-right-radius: 7%;
+    object-fit: cover;
+}
+/************************PICTURES BOX3*********************/
+#box3>img{
+    padding-top: 0%;
+    width: 302px;
+    height:390px ;
+    border-top-left-radius: 7% ;
+    border-top-right-radius: 7%;
+    object-fit: cover;
+}
+/************************PICTURES BOX4*********************/
+#box4>#box4-1>img{
+    width: 302px;
+    height:140px;
+    border-top-left-radius: 7% ;
+    border-top-right-radius: 7%;
+    object-fit: cover;
+}
+#box4>#box4-2>img{
+    width: 302px;
+    height:155px ; 
+    border-top-left-radius: 7% ;
+    border-top-right-radius: 7%;
+    object-fit: cover;
+   
+}
+/********************************************************DIVERS STYLES*********************************************************/
+figcaption{
+    font-weight: bold;
+    padding-left:15px;
+	padding-top:15px;
+}
+
+h1{
+    padding-left:49px;
+}
