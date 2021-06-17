@@ -1,0 +1,102 @@
+/** ------------------------------------------------------------- NAVIGATION --------------------------------------------------------------------------- **/
+
+#h2navigation{
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	padding-bottom:15px;
+	padding-right:0px;
+	padding-top:0px;
+	padding-left:50px;
+	
+}
+h5{
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+	padding-bottom:17px;
+	padding-right:0px;
+	padding-top:0px;
+	padding-left:0px;
+	
+}
+/*****************************************************************FORM******************************************************************/
+#garden {
+    display: grid;
+    grid-template-columns: 3% 50% 30% ;
+  }
+
+ .fit-picture{
+    grid-column-start: 1;
+	border-top-left-radius: 30%;
+    border-bottom-left-radius:30%;
+    height:35px;
+  }
+  #name{
+    grid-column-start: 2;
+  }
+  #buttonsearch{
+    grid-column-start: 3;
+	background-color:#0065FC;
+	color:white;
+	width:20%;
+    height:35px;
+    border-top-right-radius: 12%;
+    border-bottom-right-radius:12%;
+    border:none;
+  }
+
+input{
+    width:96%;
+    height:29px;
+	border-color:#F2F2F2;
+}
+.label{
+    float:left;
+	}
+/***************************************************************** END FORM******************************************************************/
+#PageRelease{
+
+padding-left:50px;
+}
+
+.buttonFilter>button{
+    width: 400px; height: 50px;
+  
+}
+/**************************************************************PICTURE BUTTON********************************************************************/
+.pictureButton{
+    
+    border:none;
+    background:white;
+    
+}
+ .pictureButton>#img1{
+     width: 140px;
+	 
+ }
+ .pictureButton>#img2{
+    width: 120px;
+   
+}
+.pictureButton>#img3{
+    width: 140px;
+}
+.pictureButton>#img4{
+    width: 180px;
+}
+/************************************************************** END PICTURE BUTTON*************************************************************/
+.filter{
+    font-weight: bold;
+	margin-top:0px;   
+}
+
+	
+.Informationpicture{
+    width: 30px;
+	padding-left: 40px;
+	padding-top: 20px;
+    
+}
