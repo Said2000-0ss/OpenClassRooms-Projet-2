@@ -393,7 +393,7 @@
     font-size: large;
 }
 p{
-	margin-top:7px;
+	margin-top:2px;
 	margin-bottom:0px;
     text-align: left;
     padding-left: 17px;
@@ -429,3 +429,16 @@ p{
 	padding-bottom:26px;
 	padding-left:0px;  
  }
+/*#valerie{
+	color:red;
+}*/
+
+.starblue{
+color:blue;
+}
+.stargrey{
+	color:grey;
+}
+.starsPosition{
+	padding-top:30px;
+}

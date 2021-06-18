@@ -50,6 +50,7 @@ h5{
 	grid-row-start: 4;
 	display: grid;
 	grid-template-columns: 9% 12% 10% 11% 20% ; 
+	padding-top:5px;
 }
 .section3>.box4>.box4-1{
 	grid-column-start: 1;
@@ -77,6 +78,7 @@ h5{
 	
 	display: grid;
 	grid-template-columns: 5% 94% ; 
+	padding-top: 8px;
 }
 
 .section3>.box5>.box5-1{
@@ -129,23 +131,23 @@ h5{
     width: 24px;
 	align-items: center;
     justify-content: center;
-	padding:6px;
+	padding:12px;
 	color:#0065FC;
 	
 }
 .titleCircleAroundIcon{
-	margin-left:-20px;
-	padding-left:20px;
-	padding-right:20px;
-	padding-top:7px;
-	padding-bottom:5px;
-	border:1px solid #F2F2F2;
-	border-top-right-radius:12px;
-	border-bottom-right-radius:12px;
-	border-left:none;	
-	color:black;
-	font-weight: bold;
-	font-size: 85%;
+	margin-left: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 13px;
+    padding-bottom: 11px;
+    border: 1px solid #F2F2F2;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-left: none;
+    color: black;
+    font-weight: bold;
+    font-size: 85%;
 }
 .circleInfoBlue{
 	border: 3px solid #F2F2F2;
@@ -153,6 +155,7 @@ h5{
 	align-items: center;
     justify-content: center;
 	padding:3px;
+	padding-top: 1px;
 	color:#0065FC;
 }
 .iconsearch{          
