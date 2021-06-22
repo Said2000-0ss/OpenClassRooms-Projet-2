@@ -9,7 +9,7 @@
 .section1>#box1{
     grid-column-start: 1;
     background-color:#F2F2F2;
-	width: 880px;
+	width: 90%;
     height: 629px;
     border-radius: 2%;
     display:grid;
