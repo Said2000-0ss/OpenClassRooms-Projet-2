@@ -10,7 +10,7 @@
 	
 }
 h5{
-	margin-top:0px;
+	margin-top:15px;
 	margin-left:0px;
 	margin-right:0px;
 	margin-bottom:0px;
@@ -72,6 +72,7 @@ h5{
 	padding-top:17px;					
 	grid-column-start: 5;
 }
+<<<<<<< HEAD
 
 .section3>.box5{
 	grid-row-start: 5;
@@ -81,6 +82,17 @@ h5{
 	padding-top: 8px;
 }
 
+=======
+
+.section3>.box5{
+	grid-row-start: 5;
+	
+	display: grid;
+	grid-template-columns: 5% 94% ; 
+	padding-top: 8px;
+}
+
+>>>>>>> 1a3de88 (Ecran mis sur toute la largeur du navigateur)
 .section3>.box5>.box5-1{
 	grid-column-start: 1;
 	padding-top:17px;

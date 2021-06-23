@@ -5,7 +5,11 @@
     font-family: 'Raleway', sans-serif;
 }
 html{
+<<<<<<< HEAD
 	width : 1440px;
+=======
+	/*width : 1440px;*/
+>>>>>>> 1a3de88 (Ecran mis sur toute la largeur du navigateur)
 	
 }
 body{
