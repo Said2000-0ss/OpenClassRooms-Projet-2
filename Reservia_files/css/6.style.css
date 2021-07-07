@@ -1,0 +1,25 @@
+*{
+    /* THE FONT IS RALEWAY. */
+        font-family: 'Raleway', sans-serif;
+    }
+
+h1 {
+    margin-left:5%;
+    padding:0;
+    font-size: 150%;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+a{  font-size: 16px; font-weight: bold; text-decoration: none; }
+
+
+
+
+
+
+
+
+
+

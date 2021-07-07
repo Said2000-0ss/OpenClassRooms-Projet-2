@@ -1,0 +1,42 @@
+/********************************************************************* HEADER ****************************************************************/
+
+.pageHead {
+    margin-top: 50px;
+    padding-left: 4%;
+    height: 85px;
+    display: grid;
+    grid-template-columns: 63% 27% 10%;
+}
+
+.pageHead__logo {
+    grid-column-start: 1;
+    width: 94px;
+    
+}
+
+.pageHead__navItem {
+    grid-column-start: 2;
+    padding: 0px 35px;
+    font-weight: normal;
+    Color: black;
+    margin-left: 0px;
+}
+
+.pageHead__navItem:hover {
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+    padding-top: 39px;
+}
+
+.pageHead__itemRegister {
+    grid-column-start: 3;
+    color: #0065FC;
+    padding: 0px 39px;
+    padding-right: 110px;
+    padding-left: 0px;
+}
+
+.pageHead__nav {
+    margin-right: 0px;
+    padding-right: 0px;
+}
