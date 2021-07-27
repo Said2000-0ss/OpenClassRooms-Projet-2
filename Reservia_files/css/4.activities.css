@@ -2,17 +2,18 @@
 
 .activities {
     margin-left: 2%;
+    margin-top: 0%;
 }
 
 .activites-title {
     margin-left: 2%;
-    margin-top: 3%;
+    margin-top: -14%;
 }
 
 .box3 {
-    margin-top: 10px;
+    /*margin-top: 10px;
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 50% 50%;*/
 }
 
 .activites-title {
@@ -29,7 +30,10 @@
     grid-column-start: 1;
     display: grid;
     grid-template-rows: 90% 10%;
-    padding: 5%;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    height: 70%;
 }
 
 .box3-1-1 {
@@ -57,13 +61,16 @@
     grid-column-start: 2;
     display: grid;
     grid-template-rows: 60% 40%;
+    height: 72%;
 }
 
 .box3-2-1 {
     grid-row-start: 1;
     display: grid;
     grid-template-rows: 80% 20%;
-    padding: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
     overflow: hidden;
 }
 
@@ -92,7 +99,10 @@
     grid-row-start: 2;
     display: grid;
     grid-template-rows: 73% 27%;
-    padding: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
 }
 
 .box3-2-2-1 {
@@ -121,6 +131,7 @@
     display: grid;
     grid-template-rows: 90% 10%;
     padding: 5%;
+    height: 70%;
 }
 
 .box3-3-1 {
@@ -148,13 +159,16 @@
     grid-column-start: 4;
     display: grid;
     grid-template-rows: 50% 50%;
+    height: 72%;
 }
 
 .box3-4-1 {
     grid-row-start: 1;
     display: grid;
     grid-template-rows: 80% 20%;
-    padding: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .box3-4-1-1 {
@@ -182,7 +196,9 @@
     grid-row-start: 2;
     display: grid;
     grid-template-rows: 80% 20%;
-    padding: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .box3-4-2-1 {
@@ -256,6 +272,6 @@
 
 figcaption {
     font-weight: bold;
-    padding-left: 15px;
+    padding-left: 9px;
     padding-top: 15px;
 }

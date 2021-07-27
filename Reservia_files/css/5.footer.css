@@ -3,12 +3,13 @@
 
 .footer{
     background-color: #F2F2F2;	
+    margin-top: -12%;
 }
 
 
 
 .footer ul{
-    width: 446px;
+    width: 82%;
     line-height: 2em;
 	list-style-type: none;
 }
@@ -27,7 +28,7 @@
 
 
 .containerFooter {
-    margin-top: 10px;
+    
     display: grid;
     grid-template-columns: 33,33% 33,33% 33,33%;
 }
