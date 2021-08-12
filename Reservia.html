@@ -8,27 +8,32 @@
     <title>Reservia</title>
     <!-- LINK CSS -->
 
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+   <!-- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> -->
     <link rel="stylesheet" href="./Reservia_files/css/1.header.css">
     <link rel="stylesheet" href="./Reservia_files/css/2.navigation.css">
     <link rel="stylesheet" href="./Reservia_files/css/3.lodging.css">
     <link rel="stylesheet" href="./Reservia_files/css/4.activities.css">
     <link rel="stylesheet" href="./Reservia_files/css/5.footer.css">
     <link rel="stylesheet" href="./Reservia_files/css/6.style.css">
-  <link rel="stylesheet" media="screen and (max-width: 1302px)" href="./Reservia_files/css/petite_resolution.css"/> <!-- Pour ceux qui ont une résolution inférieure à 1280px -->
+    <!--<link rel="stylesheet" media="(max-width:1099px) and (max-width: 375px)" href="./Reservia_files/css/petite_resolution.css"/>--> <!-- IPHONE -->
+  <!--<link rel="stylesheet" media="screen and (max-width: 1100px)" href="./Reservia_files/css/ipad.css"/>--><!-- IPAD -->
+
+  <link rel="stylesheet" media="screen and (max-width: 900px)" href="./Reservia_files/css/ipad.css"/><!-- IPAD -->
+  <link rel="stylesheet" media="screen and (max-width: 375px)" href="./Reservia_files/css/petite_resolution.css"/> <!-- IPHONE -->
+ 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- END LINK CSS -->
 </head>
 
 <body>
-    <!-- HEADER --->
+    <!-- HEADER -->
 
     <header class="pageHead">
-		<img class="pageHead__logo" src="./Reservia_files\Pictures/Header/reservia_logo.svg" alt="logo Reservia">
+		<img class="pageHead__logo" src="./Reservia_files/Pictures/Header/reservia_logo.svg" alt="logo Reservia">
 		<nav class="pageHead__nav">
-			<a  class="pageHead__navItem" href="hebergement.html">Hébergements</a>
-			<a class="pageHead__navItem" href="Activities.html">Activités</a>
+			<a  class="pageHead__navItem" id="pageHead__navItemLodging" href="hebergement.html">Hébergements</a>
+			<a class="pageHead__navItem" id="pageHead__navItemActivities" href="Activities.html">Activités</a>
 		</nav>
 		<a class="pageHead__itemRegister" href="page_register.html">S'inscrire</a>
 	</header>
@@ -38,7 +43,7 @@
 
     <div class="containerNavigation">
 		<div class="boxA">
-			<h2 id="h2navigation">Trouvez votre hébergement pour des vacances de reves</h2>
+			<h2 id="h2navigation">Trouvez votre hébergement pour des vacances de rêve</h2>
 		</div>
 		<div class="boxB">
 			<h5>En plein centre ville ou en pleine nature</h5>
@@ -54,6 +59,7 @@
 			</div>
 			<div class="boxC-3">
 				<button id="buttonsearch" type="submit">Rechercher</button>
+                <div class="iconsearchButton"><i class="fas fa-search"></i></div>
 			</div>
 		</div>
 		<div class="boxD">
@@ -61,7 +67,7 @@
 				<p>
 					<span class="filter">Filtres</span>
 				</p>
-			</div>
+			</div><div class="containerTwoBoxes">
 			<div class="boxD-2">
 				<button class="pictureButton1" >
 					<span class="circleAroundIcon">
@@ -77,7 +83,7 @@
 					</span>
 					<span class="titleCircleAroundIcon">Familial</span>
 				</button>
-			</div>
+			</div></div>
 			<div class="boxD-4">
 				<button class="pictureButton1" >
 					<span class="circleAroundIcon">
@@ -119,19 +125,19 @@
         <div class="box1">
             <h1 class="box1-title">Hébergements à Marseille</h1>
             <div class="containerBox1">
-                <div class="box1-1"><img src="Reservia_files\Pictures/Lodging/hostimg1.jpg" alt="">
-                    <figcaption class="figcaption1">Auberge la canebière</figcaption>
+                <div class="box1-1"><img src="Reservia_files/Pictures/Lodging/hostimg1.jpg" alt="">
+                    <span class="figcaption1">Auberge la canebière</span>
 					<p>Nuit à partir de <span>25 €</span></p>
 					<p>
 						<span class="starblue"><i class="fas fa-star blue fa-xs"></i><i
 								class="fas fa-star blue fa-xs"></i><i class="fas fa-star blue fa-xs"></i><i
 								class="fas fa-star blue fa-xs"></i></span><span class="stargrey"><i
-								class="fas fa-star grey fa-xs"></i>
-					</span>
+                                    class="fas fa-star grey fa-xs"></i></span>
+					
 					</p>
                 </div>
-                <div class="box1-2"><img src="Reservia_files\Pictures/Lodging/hostimg2.jpg" alt="">
-                	<figcaption class="figcaption1">Hotel du port</figcaption>
+                <div class="box1-2"><img src="Reservia_files/Pictures/Lodging/hostimg2.jpg" alt="">
+                	<span class="figcaption1">Hotel du port</span>
 					<p>Nuit à partir de <span>52 €</span></p>
 					<p>
 						<span class="starblue"><i class="fas fa-star blue fa-xs"></i><i
@@ -140,8 +146,8 @@
 					</span>
 					</p>
                 </div>
-                <div class="box1-3"><img src="Reservia_files\Pictures/Lodging/hostimg3.jpg" alt="">
-                    <figcaption class="figcaption1">Hotel les mouettes</figcaption>
+                <div class="box1-3"><img src="Reservia_files/Pictures/Lodging/hostimg3.jpg" alt="">
+                    <span class="figcaption1">Hotel les mouettes</span>
 					<p>Nuit à partir de <span>76 €</span></p>
 					<p>
 						<span class="starblue"><i class="fas fa-star blue fa-xs"></i><i
@@ -151,8 +157,8 @@
 					</span>
 					</p>
                 </div>
-                <div class="box1-4"><img src="Reservia_files\Pictures/Lodging/hostimg4.jpg" alt="">
-                    <figcaption class="figcaption1">Hotel de la mer</figcaption>
+                <div class="box1-4"><img src="Reservia_files/Pictures/Lodging/hostimg4.jpg" alt="">
+                    <span class="figcaption1">Hotel de la mer</span>
 					<p>Nuit à partir de <span>46 €</span></p>
 					<p>
 						<span class="starblue"><i class="fas fa-star blue fa-xs"></i><i
@@ -162,8 +168,8 @@
 					</span>
 					</p>
                 </div>
-                <div class="box1-5"><img src="Reservia_files\Pictures/Lodging/hostimg5.jpg" alt="">
-                    <figcaption class="figcaption1">Auberge le Panier</figcaption>
+                <div class="box1-5"><img src="Reservia_files/Pictures/Lodging/hostimg5.jpg" alt="">
+                    <span class="figcaption1">Auberge le Panier</span>
 					<p>Nuit à partir de <span>23 €</span></p>
 					<p>
 						<span class="starblue"><i class="fas fa-star blue fa-xs"></i><i
@@ -173,8 +179,8 @@
 					</span>
 					</p>
                 </div>
-                <div class="box1-6"><img src="Reservia_files\Pictures/Lodging/hostimg6.jpg" alt="">
-                    <figcaption class="figcaption1">Hotel chez Amina</figcaption>
+                <div class="box1-6"><img src="Reservia_files/Pictures/Lodging/hostimg6.jpg" alt="">
+                    <span class="figcaption1">Hotel chez Amina</span>
 					<p>Nuit à partir de <span>96 €</span></p>
 					<p>
 						<span class="starblue"><i class="fas fa-star blue fa-xs"></i><i
@@ -195,9 +201,9 @@
                 <div class="box2-title-icon"><i class="fas fa-chart-line fa-2x"></i></div>
             </div>
             <div class="box2-1">
-                <div class="box2-1-1"><img src="Reservia_files\Pictures/Lodging/hostimg7.jpg" alt=""></div>
+                <div class="box2-1-1"><img src="Reservia_files/Pictures/Lodging/hostimg7.jpg" alt=""></div>
                 <div class="box2-1-2">
-                    <figcaption class="figcaption2">Hotel le soleil du matin</figcaption>
+                  <span class="figcaption2" >Hotel le soleil du matin </span>
                     <p>Nuit à partir de <span>128 €</span></p>
                     <p class="starsPosition">
                         <span class="starblue"><i class="fas fa-star blue fa-xs"></i><i
@@ -205,13 +211,13 @@
                                 class="fas fa-star blue fa-xs"></i><i class="fas fa-star grey fa-xs"></i>
                     </span>
                     </p>
+                   
                 </div>
             </div>
             <div class="box2-2">
-                <div class="box2-2-1"><img src="Reservia_files\Pictures/Lodging/hostimg8.jpg" alt=""></div>
+                <div class="box2-2-1"><img src="Reservia_files/Pictures/Lodging/hostimg8.jpg" alt=""></div>
                 <div class="box2-2-2">
-                    <figcaption class="figcaption2" id="idFigcaption1">Au coeur de l'eau Chambre d'hotes
-                    </figcaption>
+                    <span class="figcaption2" >Au coeur de l'eau Chambre d'hotes </span>
                     <p>Nuit à partir de <span>71 €</span></p>
                     <p class="starsPosition">
                         <span class="starblue"><i class="fas fa-star blue fa-xs"></i><i
@@ -223,9 +229,9 @@
                 </div>
             </div>
             <div class="box2-3">
-                <div class="box2-3-1"><img src="Reservia_files\Pictures/Lodging/hostimg9.jpg" alt=""></div>
+                <div class="box2-3-1"><img src="Reservia_files/Pictures/Lodging/hostimg9.jpg" alt=""></div>
                 <div class="box2-3-2">
-                    <figcaption class="figcaption2" id="idFigcaption2">Hotel tout bleu et blanc</figcaption>
+                    <span class="figcaption2" id="idFigcaption2">Hotel tout bleu et blanc</span>
                     <p>Nuit à partir de <span>68 €</span></p>
                     <p class="starsPosition">
                         <span class="starblue"><i class="fas fa-star blue fa-xs"></i><i
@@ -248,46 +254,46 @@
         </div>
         <div class="containerActivites">
             <div class="box3-1">
-                <div class="box3-1-1"><img src="Reservia_files\Pictures/Activities/activitiesimg1.jpg" alt=""></div>
+                <div class="box3-1-1"><img src="Reservia_files/Pictures/Activities/activitiesimg1.jpg" alt=""></div>
                 <div class="box3-1-2">
-                    <figcaption>Vieux port</figcaption>
+                    <span class="titleActivities">Vieux port</span>
                 </div>
             </div>
             <div class="box3-2">
                 <div class="box3-2-1">
-                    <div class="box3-2-1-1"><img src="Reservia_files\Pictures/Activities/activitiesimg2.jpg" alt="">
+                    <div class="box3-2-1-1"><img src="Reservia_files/Pictures/Activities/activitiesimg2.jpg" alt="">
                     </div>
                     <div class="box3-2-1-2">
-                        <figcaption>Fort de pomégues</figcaption>
+                        <span class="titleActivities">Fort de pomégues</span>
                     </div>
                 </div>
                 <div class="box3-2-2">
-                    <div class="box3-2-2-1"><img src="Reservia_files\Pictures/Activities/activitiesimg3.jpg" alt="">
+                    <div class="box3-2-2-1"><img src="Reservia_files/Pictures/Activities/activitiesimg3.jpg" alt="">
                     </div>
                     <div class="box3-2-2-2">
-                        <figcaption>Iles du Frioul</figcaption>
+                        <span class="titleActivities">Iles du Frioul</span>
                     </div>
                 </div>
             </div>
             <div class="box3-3">
-                <div class="box3-3-1"><img src="Reservia_files\Pictures/Activities/activitiesimg4.jpg" alt=""></div>
+                <div class="box3-3-1"><img src="Reservia_files/Pictures/Activities/activitiesimg4.jpg" alt=""></div>
                 <div class="box3-3-2">
-                    <figcaption>Parc National des Calanques</figcaption>
+                    <span class="titleActivities">Parc National des Calanques</span>
                 </div>
             </div>
             <div class="box3-4">
                 <div class="box3-4-1">
-                    <div class="box3-4-1-1"><img src="Reservia_files\Pictures/Activities/activitiesimg5.jpg" alt="">
+                    <div class="box3-4-1-1"><img src="Reservia_files/Pictures/Activities/activitiesimg5.jpg" alt="">
                     </div>
                     <div class="box3-4-1-2">
-                        <figcaption>Notre-Dame-De-La-Garde</figcaption>
+                        <span class="titleActivities">Notre-Dame-De-La-Garde</span>
                     </div>
                 </div>
                 <div class="box3-4-2">
-                    <div class="box3-4-2-1"><img src="Reservia_files\Pictures/Activities/activitiesimg6.jpg" alt="">
+                    <div class="box3-4-2-1"><img src="Reservia_files/Pictures/Activities/activitiesimg6.jpg" alt="">
                     </div>
                     <div class="box3-4-2-2">
-                        <figcaption>Parc Longchamp</figcaption>
+                        <span class="titleActivities">Parc Longchamp</span>
                     </div>
                 </div>
             </div>

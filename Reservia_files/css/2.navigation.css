@@ -57,9 +57,9 @@ h5 {
 }
 
 .containerNavigation>.boxD {
-	grid-row-start: 4;
+    grid-row-start: 4;
     display: grid;
-    grid-template-columns: 6% 15% 12% 15% 21%;
+    grid-template-columns: 6% 31% 15% 21%;
     padding-top: 0px;
 }
 
@@ -68,23 +68,32 @@ h5 {
 }
 
 .containerNavigation>.boxD>.boxD-2 {
-	padding-top: 5px;
     grid-column-start: 2;
-}
-
-.containerNavigation>.boxD>.boxD-3 {
 	padding-top: 5px;
-	grid-column-start: 3;
+    
+}
+.containerTwoBoxes{
+    grid-column-start: 2;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 1%;
+}
+.containerNavigation>.boxD>.boxD-3 {
+    grid-column-start: 1;
+	padding-top: 5px;
+	
 }
 
 .containerNavigation>.boxD>.boxD-4 {
-	padding-top: 5px;
-	grid-column-start: 4;
+    grid-column-start: 3;
+    padding-top: 5px;
+
 }
 
 .containerNavigation>.boxD>.boxD-5 {
+    grid-column-start: 4;
 	padding-top: 5px;
-    grid-column-start: 5;
+   
 }
 
 .containerNavigation>.boxE {
@@ -194,7 +203,10 @@ h5 {
     border-bottom-left-radius: 7px;
     border-top-left-radius: 7px;
 }
+.iconsearchButton{
+    visibility: hidden;
 
+}
 
 
 

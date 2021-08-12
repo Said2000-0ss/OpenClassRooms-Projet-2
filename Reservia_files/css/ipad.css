@@ -1,15 +1,16 @@
 
 
-
+/****************************************************************************************************/
 
 /********************************************************************* HEADER ****************************************************************/
 
 .pageHead {
     margin-top: 0px;
     padding-left: 0%;
-   
+    height: 100%;
+    /* width: 100%; */
     display: grid;
-    grid-template-rows: 50% 60%;
+    grid-template-rows: 40% 60%;
     grid-template-columns: 100%;
     width: 100%;
 }
@@ -31,9 +32,9 @@
     Color: black;
     margin-left: 0%;
     padding-left: 18%;
-    font-size: 1.2em;
-    border-bottom: 2px solid #DEEBFF;
-    
+    font-size: 1.8em;
+    border-bottom: 4px solid #DEEBFF;
+  /* border-width: 150%;*/
    
 }
 
@@ -45,19 +46,19 @@
 }
 
 .pageHead__itemRegister {
-    grid-column-start: 1;
+    grid-column-start: 2;
     grid-row-start: 1;
     color: #0065FC;
     padding-top: 11px;
-    font-size: 0.9em;
-    margin-left: 287px;
+    font-size: 1.7em;
+    margin-left: -125px;
 }
 
 .pageHead__nav {
     margin-right: 0px;
     padding-right: 0px;
     margin-top: 0px;
-    margin-left: 0%;
+    margin-left: -1%;
     padding-top: 3%;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -66,17 +67,20 @@
     grid-row-start: 1;
     grid-column-start: 1;
     
+  padding-left:30%;
+    /*border-width: 100%;*/
+    
 
 }
 #pageHead__navItemActivities{
     grid-row-start: 1;
     grid-column-start: 2;
+   
+   /* border-width: 100%;*/
 }
 
-
-
 /********************************************* Navigation **************************************************/
-
+/****************************************************navigation******************************************************/
 
 #h2navigation {
     margin-top: 0%;
@@ -98,21 +102,20 @@ h5 {
     padding-bottom: 0px;
     padding-bottom: 0px;
     padding-right: 0px;
-    padding-top: 4px;
+    padding-top: 0px;
     padding-left: 0;
-    font-size: 112%;
+    font-size: 118%;
     font-weight: normal;
 }
 
 .containerNavigation {
     display: grid;
-    grid-template-rows: 21% 10% 14% 10% 13% 14% 14% 10%;
-    grid-template-columns: 100%;
-    padding-left: 0px;
-    padding-top: 5%;
+    grid-template-rows: 11% 10% 10% 10% 13% 14% 14% 10%;
+    grid-template-columns: 101%;
+    padding-left: 10px;
+    padding-top: 2%;
+    margin-left: 0px;
 }
-
-
 
 .containerNavigation>.boxA {
 	grid-row-start: 1;
@@ -126,17 +129,16 @@ h5 {
 }
 
 .containerNavigation>.boxC {
-    grid-row-start: 3;
+	
+	grid-row-start: 3;
     grid-column-start: 1;
     display: grid;
-    grid-template-columns: 10% 70% 20%;
-    height: 45px;
-    margin-top: 0px;
+    grid-template-columns: 10% 66%;
 }
 
 .containerNavigation>.boxC>.boxC-1 {
     grid-column-start: 1;
-    height: 45px;
+    height: 73%;
 }
 
 .containerNavigation>.boxC>.boxC-2 {
@@ -145,8 +147,8 @@ h5 {
 }
 
 .containerNavigation>.boxC>.boxC-3 {
-
-	grid-column-start: 3;
+    grid-column-start: 3;
+    height: 93%;
 }
 
 .containerNavigation>.boxD {
@@ -166,6 +168,7 @@ h5 {
     padding-top: 2%;
     margin-left: 0px;
     margin-bottom: 0px;
+    font-size: 1.2em;
    
 	
 	
@@ -174,9 +177,9 @@ h5 {
 .containerNavigation>.boxD>.containerTwoBoxes{
     grid-row-start: 5;
     display: grid;
-    grid-template-columns: 50% 50%;
-    padding-top: 6%;
-    padding-bottom: 15%;
+    grid-template-columns: 21% 16%;
+    padding-top: 2%;
+    padding-bottom: 12%;
 }
 .containerNavigation>.boxD>.boxD-2 {
     grid-row-start: 5;
@@ -213,16 +216,17 @@ h5 {
 .containerNavigation>.boxD>.boxD-5 {
     grid-column-start: 1;
     grid-row-start: 7;
-    margin-top: 7%;
+    margin-top: 4%;
     padding-top: 0px;
     padding-left: 0;
+    font-size: 1.3em;
 	
 }
 
 .containerNavigation>.boxE {
     grid-row-start: 8;
     display: grid;
-    grid-template-columns: 5% 95%;
+    grid-template-columns: 3% 95%;
     margin-top: 0%;
     padding-top: 5%;
     margin-bottom: 0px;
@@ -237,7 +241,7 @@ h5 {
 .containerNavigation>.boxE>.boxE-2 {
 	grid-column-start: 2;
 	padding-left: 0;
-    font-size: 0.6em;
+    font-size: 0.8em;
 }
 .boxE-2>p {
     margin-top: 2px;
@@ -297,8 +301,8 @@ h5 {
     padding-left: 20px;
     padding-right: 19px;
     padding-top: 10px;
-    padding-bottom: 9px;
-    border: 2px solid #F2F2F2;
+    padding-bottom: 10px;
+    border: 1px solid #F2F2F2;
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
     border-left: none;
@@ -320,10 +324,10 @@ h5 {
 .iconsearch {
     background-color: #F2F2F2;
     color: Black;
-    padding-top: 33%;
+    /* padding-top: 29%; */
     padding-left: 34%;
     margin-left: 0;
-    height: 64%;
+    height: 82%;
     /* padding-bottom: 19%; */
     border-bottom-left-radius: 7px;
     border-top-left-radius: 7px;
@@ -333,43 +337,21 @@ h5 {
 }
 
 #buttonsearch {
-    visibility:hidden;
-   
+    grid-column-start: 3;
+    background-color: #0065FC;
+    margin-left: 0%;
+    color: white;
+    width: 95%;
+    height: 99%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
 }
-/***************************************************************/
-
-    .iconsearchButton{
-        visibility: visible;
-        grid-column-start: 3;
-        background-color: #0065FC;
-        margin-left: 0%;
-        margin-top: -42px;
-        margin-left: 0px;
-        color: white;
-        width: 38%;
-        height: 67%;
-        border-radius: 18%;
-        border: none;
-        padding-top: 13px;
-        padding-left: 14px;
-    }
-    /***************************************************************/
 
 input {
     width: 100%;
     height: 77%;
     border-color: #F2F2F2;
-    font-weight: bold;
-    color: black;
-    
-}
-
-input::-webkit-input-placeholder {
-    color:black;
-}
-  
-input:-moz-placeholder {
-    color:black;
 }
 
 .pictureButton1 {
@@ -381,17 +363,17 @@ input:-moz-placeholder {
 /************************************************************************************************/
 .lodging {
     display: grid;
-    grid-template-rows: 40% 60%;
+    grid-template-rows: 100% 106%;
     margin-top: 5%;
     display: grid;
     grid-template-columns: 100%;
 }
 
 .box1 {
-    margin-top: -130%;
+    margin-top: -111%;
     grid-row-start: 2;
     display: grid;
-    grid-template-rows: 3% 97%;
+    grid-template-rows: 4% 96%;
     display: grid;
     grid-template-columns: 100%;
     background-color: white;
@@ -399,10 +381,12 @@ input:-moz-placeholder {
     margin-left: 0;
     margin-right: 0;
     border-radius: 10px;
+    width: 100%;
+    height: 90%;
 }
 
 .box2 {
-    margin-top: 8%;
+    margin-top: 0%;
     grid-column-start: 1;
     grid-row-start: 1;
     display: grid;
@@ -412,7 +396,7 @@ input:-moz-placeholder {
     background-color: #F2F2F2;
     position: relative;
     border-radius: 0px;
-    height: 47%;
+    height: 50%;
     width: 105%;
     margin-left: -3%;
 }
@@ -422,16 +406,15 @@ input:-moz-placeholder {
     position: relative;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-   
-    font-size: 1.2em;
+    font-size: 1.6em;
 }
 
 .containerBox1 {
-    margin-top: 5%;
     grid-row-start: 2;
     display: grid;
+    
     grid-template-rows: 15% 15% 15% 15% 15% 15%;
-    display: grid;
+	display: grid;
     grid-template-columns: 100%;
     background-color: white;
     position: relative;
@@ -448,7 +431,9 @@ input:-moz-placeholder {
     height: 95%;
     width: 96%;
     position: relative;
-    margin-left: 1%;
+    margin-left: 2%;
+    width: 714px;
+    height: 220px;
     border-radius: 10px;
     padding: 1%;
     box-shadow: 8px 8px 12px #aaa;
@@ -462,7 +447,9 @@ input:-moz-placeholder {
     height: 95%;
     width: 96%;
     position: relative;
-    margin-left: 1%;
+    margin-left: 2%;
+    width: 714px;
+    height: 220px;
     margin-bottom: 5%;
     border-radius: 10px;
     padding: 1%;
@@ -476,7 +463,9 @@ input:-moz-placeholder {
     height: 95%;
     width: 96%;
     position: relative;
-    margin-left: 1%;
+    margin-left: 2%;
+    width: 714px;
+    height: 220px;
     margin-bottom: 5%;
     border-radius: 10px;
     padding: 1%;
@@ -489,7 +478,9 @@ input:-moz-placeholder {
     height: 95%;
     width: 96%;
     position: relative;
-    margin-left: 1%;
+    margin-left: 2%;
+    width: 714px;
+    height: 220px;
     margin-bottom: 5%;
     border-radius: 10px;
     padding: 1%;
@@ -502,7 +493,9 @@ input:-moz-placeholder {
     height: 95%;
     width: 96%;
     position: relative;
-    margin-left: 1%;
+    margin-left: 2%;
+    width: 714px;
+    height: 220px;
     margin-bottom: 5%;
     border-radius: 10px;
     padding: 1%;
@@ -515,7 +508,9 @@ input:-moz-placeholder {
     height: 95%;
     width: 96%;
     position: relative;
-    margin-left: 1%;
+    margin-left: 2%;
+    width: 714px;
+    height: 220px;
     margin-bottom: 5%;
     border-radius: 10px;
     padding: 1%;
@@ -528,7 +523,7 @@ input:-moz-placeholder {
     margin-top: -9%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    font-size: 1.1em;
+    font-size: 1.6em;
 }
 
 /******************************************************************BOX 2********************************************************************/
@@ -542,14 +537,17 @@ input:-moz-placeholder {
 
 .box2-title-sentence {
     grid-column-start: 1;
-    font-size: 100%;
-    padding-top: 0%;
+    grid-column-start: 1;
+    font-size: 130%;
+    padding-top: 2%;
 }
 
 .box2-title-icon {
+   
     grid-column-start: 2;
     position: relative;
-    padding-top: 6%;
+    padding-top: 16%;
+    padding-left: 33%;
     padding-left: 33%;
 }
 .box2-title-icon>i{
@@ -561,15 +559,15 @@ input:-moz-placeholder {
 .box2-1 {
     grid-row-start: 2;
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 40% 41%;
     border-radius: 10px;
     position: relative;
     background-color: white;
     margin-left: 5%;
     padding: 1%;
     margin-right: 5%;
-    height: 120px;
-    width: 335px;
+    width: 714px;
+    height: 220px;
 }
 
 .box2-1-1 {
@@ -585,7 +583,7 @@ input:-moz-placeholder {
 .box2-2 {
     grid-row-start: 3;
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 40% 50%;
     border-radius: 10px;
     padding: 1%;
     position: relative;
@@ -593,8 +591,8 @@ input:-moz-placeholder {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 0%;
-    height: 120px;
-    width: 335px;
+    width: 714px;
+    height: 220px;
 }
 
 .box2-2-1 {
@@ -608,7 +606,7 @@ input:-moz-placeholder {
 .box2-3 {
     grid-row-start: 4;
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 40% 42%;
     border-radius: 10px;
     padding: 1%;
     position: relative;
@@ -616,8 +614,8 @@ input:-moz-placeholder {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 0%;
-    height: 120px;
-    width: 335px;
+    width: 714px;
+    height: 220px;
 }
 
 .box2-3-1 {
@@ -629,7 +627,9 @@ input:-moz-placeholder {
 }
 
 /***********************************************************PICTURES*******************************************************/
+.starsPosition{
 
+}
 .box1-1>img {
     width: 98%;
     height: 50%;
@@ -714,7 +714,7 @@ input:-moz-placeholder {
 
 .box2-3-1>img {
     width: 99%;
-    height: 59%;
+    height: 51%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     object-fit: cover;
@@ -738,45 +738,45 @@ input:-moz-placeholder {
     padding-bottom: 0px;
     margin-bottom: 0px;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.3em;
 }
 
 .figcaption2 {
     font-weight: bold;
     float: right;
     padding-top: 5%;
-    padding-left: 7%;
+    padding-left: 0%;
     padding-bottom: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
-    font-size: 1em;
+    font-size: 1.63em;
 }
 
 .lodging p {
     margin-top: 1%;
     margin-bottom: 0px;
     text-align: left;
-    padding-left: 2%;
+    padding-left: 1%;
     padding-top: 0px;
-    font-size: 1em;
+    font-size: 1.26em;
 }
 
 /**************************************************************************************************/
 .activities {
-    margin-left: 2%;
+    margin-left: 0%;
     position: relative;
 }
 
 .activites-title {
-    margin-left: 1%;
-    margin-top: 3%;
-    font-size: 1.2em;
+    margin-left: 4%;
+    margin-top: 5%;
+    font-size: 1.8em;
 }
 
 .box3 {
-    margin-top: -172%;
+    margin-top: 113%;
     display: grid;
     grid-template-rows: 100%;
     grid-template-columns: 100%;
@@ -791,6 +791,7 @@ input:-moz-placeholder {
     display: grid;
     grid-template-rows: 13% 13% 13% 13% 13% 13%;
     grid-template-columns: 100%;
+    margin-left: 1%;
     
 }
 
@@ -799,13 +800,13 @@ input:-moz-placeholder {
     grid-column-start: 1;
     display: grid;
     grid-template-rows: 80% 20%;
-    /* padding: -0%; */
     padding-top: 0%;
     padding-right: 0%;
     padding-bottom: 0%;
     width: 100%;
-    margin-left: -1%;
-    height: 190px;
+    margin-left: 2%;
+    height: 220px;
+    width: 714px;
 }
 
 .box3-1-1 {
@@ -834,8 +835,8 @@ input:-moz-placeholder {
     
     grid-column-start: 1;
     display: block;
-    grid-template-rows: 85% 15%;
-    height: 90%;
+    grid-template-rows: 80% 20%;
+    height: 100%;
     width: 100%;
 }
 
@@ -844,11 +845,14 @@ input:-moz-placeholder {
     margin-top: 0%;
     display: grid;
     grid-template-rows: 80% 20%;
-    padding-top: 0px;
+    margin-left: 2%;
+    height: 220px;
+    width: 714px;
+    padding-top: 0%;
     overflow: hidden;
-    width: 100%;
-    margin-left: -1%;
-    height: 190px;
+    margin-left: 2%;
+    padding-left: 0%;
+    
 }
 
 .box3-2-1-1 {
@@ -877,14 +881,16 @@ input:-moz-placeholder {
     grid-column-start: 1;
     display: grid;
     grid-template-rows: 80% 20%;
-    /* padding: 5%; */
-    padding-top: 0px;
+    margin-left: 2%;
+    height: 220px;
+    width: 714px;
+    padding-top: 2%;
     padding-left: 0%;
     padding-right: 0%;
-    width: 100%;
-    height: 190px;
-    margin-left: 0%;
-    margin-top: 7%;
+    margin-top: 0%;
+   
+   
+    margin-top: 0%;
 }
 
 .box3-2-2-1 {
@@ -895,7 +901,6 @@ input:-moz-placeholder {
     border-top-right-radius: 12px;
     border-right: solid;
     border-color: #F2F2F2;
-    margin-left: -1%;
 }
 
 .box3-2-2-2 {
@@ -914,15 +919,14 @@ input:-moz-placeholder {
     grid-column-start: 1;
     display: grid;
     grid-template-rows: 80% 20%;
-    /* padding-left: 5%; */
-    padding-top: 4px;
+    margin-left: 2%;
+    height: 220px;
+    width: 714px;
+    padding-top: 0%;
     padding-bottom: 0;
     padding-left: 0%;
     padding-right: 0;
-    width: 99%;
-    height: 190px;
     margin-top: 0%;
-    margin-left: -1%;
 }
 
 .box3-3-1 {
@@ -933,8 +937,8 @@ input:-moz-placeholder {
     border-top-right-radius: 12px;
     border-right: solid;
     border-color: #F2F2F2;
-    width: 100%;
-    margin-left: -1%;
+    width: 99%;
+    margin-left: 0%;
 }
 
 .box3-3-2 {
@@ -947,7 +951,7 @@ input:-moz-placeholder {
     border-right: solid;
     margin-left: 0%;
     border-color: #F2F2F2;
-    width: 100%;
+    width: 99%;
 }
 
 .box3-4 {
@@ -962,25 +966,25 @@ input:-moz-placeholder {
     grid-row-start: 5;
     display: grid;
     grid-template-rows: 80% 20%;
-    /* padding: 5%; */
-    padding-top: 20px;
+    margin-left: 2%;
+    height: 220px;
+    width: 714px;
+    padding-top: 0%;
     padding-left: 0%;
     padding-right: 0%;
-    margin-top: 118%;
-    height: 190px;
-    margin-left: 0%;
-    width: 100%;
+    margin-top: 63%;
+    
 }
 
 .box3-4-1-1 {
     grid-row-start: 1;
+  
     border-top-style: solid;
     border-left-style: solid;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     border-right: solid;
     border-color: #F2F2F2;
-    margin-left: -1%;
 }
 
 .box3-4-1-2 {
@@ -996,15 +1000,14 @@ input:-moz-placeholder {
 
 .box3-4-2 {
     grid-row-start: 6;
-    margin-top: 0%;
     display: grid;
     grid-template-rows: 80% 20%;
-    padding: 0%;
-    padding-top: 25px;
-    margin-left: 0%;
-    width: 100%;
-    height: 190px;
-    margin-left: -1%;
+    margin-left: 2%;
+    height: 220px;
+    width: 714px;
+    padding-top: 2%;
+    padding-left: 0%;
+  
 }
 
 .box3-4-2-1 {
@@ -1080,16 +1083,21 @@ figcaption {
     font-weight: bold;
     padding-left: 3%;
     padding-top: 1%;
-    font-size: 0.9em;
+    font-size: 1em;
+}
+.titleActivities {
+    font-weight: bold;
+    padding-left: 11px;
+    font-size: 1em;
 }
 
 /*******************************************************************************************************************/
 /************************************************************** FOOTER ***************************************************************/
 
 .footer{
-    background-color: #F2F2F2;	
-    margin-left: -3%;
-    width: 105%;
+    background-color: #F2F2F2;
+    margin-left: 0%;
+    margin-top: -47%;
 }
 
 
@@ -1098,7 +1106,7 @@ figcaption {
     width: 97%;
     line-height: 2em;
     list-style-type: none;
-    padding-left: 9%;
+    padding-left: 3%;
 }
 
 
@@ -1106,24 +1114,24 @@ figcaption {
     
     font-weight: normal;
 	color: black;
-    font-size: 0.8em;
+    font-size: 1em;
     
     
 }
 
 .footerList__title{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 1%;
 }
 
 
 .containerFooter {
-    margin-top: -338px;
-    width: 54%;
-    margin-left: 2%;
+    margin-top: 0%;
+    width: 100%;
+    margin-left: 0%;
     display: grid;
-    grid-template-rows: 33.33% 33.33% 33.33%;
+    grid-template-rows:33.33% 33.33% 33.33%;
     grid-template-columns: 100%;
 }
 
