@@ -7,20 +7,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservia</title>
     <!-- LINK CSS -->
-
-   <!-- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> -->
     <link rel="stylesheet" href="./Reservia_files/css/1.header.css">
     <link rel="stylesheet" href="./Reservia_files/css/2.navigation.css">
     <link rel="stylesheet" href="./Reservia_files/css/3.lodging.css">
     <link rel="stylesheet" href="./Reservia_files/css/4.activities.css">
     <link rel="stylesheet" href="./Reservia_files/css/5.footer.css">
     <link rel="stylesheet" href="./Reservia_files/css/6.style.css">
-    <!--<link rel="stylesheet" media="(max-width:1099px) and (max-width: 375px)" href="./Reservia_files/css/petite_resolution.css"/>--> <!-- IPHONE -->
-  <!--<link rel="stylesheet" media="screen and (max-width: 1100px)" href="./Reservia_files/css/ipad.css"/>--><!-- IPAD -->
 
-  <link rel="stylesheet" media="screen and (max-width: 900px)" href="./Reservia_files/css/ipad.css"/><!-- IPAD -->
-  <link rel="stylesheet" media="screen and (max-width: 375px)" href="./Reservia_files/css/petite_resolution.css"/> <!-- IPHONE -->
- 
+    <link rel="stylesheet" media="screen and (max-width: 1008px)" href="./Reservia_files/css/1008px.css" /><!-- IPAD -->
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="./Reservia_files/css/900px.css" />
+    <link rel="stylesheet" media="screen and (max-width: 850px)" href="./Reservia_files/css/850px.css" />
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="./Reservia_files/css/800px.css" />
+    <link rel="stylesheet" media="screen and (max-width: 750px)" href="./Reservia_files/css/750px.css" />
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="./Reservia_files/css/700px.css" />
+    <link rel="stylesheet" media="screen and (max-width: 650px)" href="./Reservia_files/css/650px.css" />
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="./Reservia_files/css/600px.css" />
+    <link rel="stylesheet" media="screen and (max-width: 550px)" href="./Reservia_files/css/550px.css" />
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="./Reservia_files/css/500px.css" />
+    <link rel="stylesheet" media="screen and (max-width: 450px)" href="./Reservia_files/css/450px.css" />
+    <link rel="stylesheet" media="screen and (max-width: 400px)" href="./Reservia_files/css/400px.css" />
+    <link rel="stylesheet" media="screen and (max-width: 375px)" href="./Reservia_files/css/petite_resolution.css" />
+    <!-- IPHONE -->
+    <link rel="stylesheet" media="screen and (max-width: 281px)" href="./Reservia_files/css/280px.css" />
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- END LINK CSS -->
@@ -30,164 +39,166 @@
     <!-- HEADER -->
 
     <header class="pageHead">
-		<img class="pageHead__logo" src="./Reservia_files/Pictures/Header/reservia_logo.svg" alt="logo Reservia">
-		<nav class="pageHead__nav">
-			<a  class="pageHead__navItem" id="pageHead__navItemLodging" href="hebergement.html">Hébergements</a>
-			<a class="pageHead__navItem" id="pageHead__navItemActivities" href="Activities.html">Activités</a>
-		</nav>
-		<a class="pageHead__itemRegister" href="page_register.html">S'inscrire</a>
-	</header>
+        <img class="pageHead__logo" src="./Reservia_files/Pictures/Header/reservia_logo.svg" alt="logo Reservia">
+        <nav class="pageHead__nav">
+            <a class="pageHead__navItem" id="pageHead__navItemLodging" href="#hebergement">Hébergements</a>
+            <a class="pageHead__navItem" id="pageHead__navItemActivities" href="#activites">Activités</a>
+        </nav>
+        <a class="pageHead__itemRegister" href="page_register.html">S'inscrire</a>
+    </header>
     <!--END HEADER -->
 
     <!-- NAVIGATION -->
 
     <div class="containerNavigation">
-		<div class="boxA">
-			<h2 id="h2navigation">Trouvez votre hébergement pour des vacances de rêve</h2>
-		</div>
-		<div class="boxB">
-			<h5>En plein centre ville ou en pleine nature</h5>
-		</div>
-		<div class="boxC">
-			<div class="boxC-1">
-				<a href="">
-					<div class="iconsearch"><i class="fas fa-map-marker-alt"></i></div>
-				</a>
-			</div>
-			<div class="boxC-2">
-				<input type="text" id="name" name="user_name" placeholder="Marseille,France">
-			</div>
-			<div class="boxC-3">
-				<button id="buttonsearch" type="submit">Rechercher</button>
+        <div class="boxA">
+            <h2 id="h2navigation">Trouvez votre hébergement pour des vacances de rêve</h2>
+        </div>
+        <div class="boxB">
+            <h5>En plein centre ville ou en pleine nature</h5>
+        </div>
+        <div class="boxC">
+            <div class="boxC-1">
+                <a href="">
+                    <div class="iconsearch"><i class="fas fa-map-marker-alt"></i></div>
+                </a>
+            </div>
+            <div class="boxC-2">
+                <input type="text" id="name" name="user_name" placeholder="Marseille,France">
+            </div>
+            <div class="boxC-3">
+                <a href=""><button id="buttonsearch" type="submit">Rechercher</button></a>
                 <div class="iconsearchButton"><i class="fas fa-search"></i></div>
-			</div>
-		</div>
-		<div class="boxD">
-			<div class="boxD-1">
-				<p>
-					<span class="filter">Filtres</span>
-				</p>
-			</div><div class="containerTwoBoxes">
-			<div class="boxD-2">
-				<button class="pictureButton1" >
-					<span class="circleAroundIcon">
-						<i class="fas fa-money-bill-wave bleu"></i>
-					</span>
-					<span class="titleCircleAroundIcon">Économique</span>
-				</button>
-			</div>
-			<div class="boxD-3">
-				<button class="pictureButton1" >
-					<span class="circleAroundIcon">
-						<i class="fas fa-child bleu"></i>
-					</span>
-					<span class="titleCircleAroundIcon">Familial</span>
-				</button>
-			</div></div>
-			<div class="boxD-4">
-				<button class="pictureButton1" >
-					<span class="circleAroundIcon">
-						<i class="fas fa-heart bleu"></i>
-					</span>
-					<span class="titleCircleAroundIcon">Romantique</span>
-				</button>
-			</div>
-			<div class="boxD-5">
-				<button class="pictureButton1" >
-					<span class="circleAroundIcon">
-						<i class="fas fa-dog bleu"></i>
-					</span>
-					<span class="titleCircleAroundIcon">Animaux autorisés</span>
-                </button>
-			</div>
-		</div>
-		<div class="boxE">
-			<div class="boxE-1">
-				<div>
-					<span class="circleInfoBlue">
-						<i class="fas fa-info bleu fa-xs "></i>
-					</span>
-				</div>
-			</div>
-			<div class="boxE-2">
-				<p><span>Plus de 500 logements sont disponibles dans cette ville</span></p>
-			</div>
-		</div>
-	</div>
+            </div>
+        </div>
+        <div class="boxD">
+            <div class="boxD-1">
+                <p>
+                    <span class="filter">Filtres</span>
+                </p>
+            </div>
+            <div class="containerTwoBoxes">
+                <div class="boxD-2">
+                    <a href=""><button class="pictureButton1">
+                            <span class="circleAroundIcon">
+                                <i class="fas fa-money-bill-wave bleu"></i>
+                            </span>
+                            <span class="titleCircleAroundIcon">Économique</span>
+                        </button></a>
+                </div>
+                <div class="boxD-3">
+                    <a href=""><button class="pictureButton1">
+                            <span class="circleAroundIcon">
+                                <i class="fas fa-child bleu"></i>
+                            </span>
+                            <span class="titleCircleAroundIcon">Familial</span>
+                        </button></a>
+                </div>
+            </div>
+            <div class="boxD-4">
+                <a href=""><button class="pictureButton1">
+                        <span class="circleAroundIcon">
+                            <i class="fas fa-heart bleu"></i>
+                        </span>
+                        <span class="titleCircleAroundIcon">Romantique</span>
+                    </button></a>
+            </div>
+            <div class="boxD-5">
+                <a href=""><button class="pictureButton1">
+                        <span class="circleAroundIcon">
+                            <i class="fas fa-dog bleu"></i>
+                        </span>
+                        <span class="titleCircleAroundIcon">Animaux autorisés</span>
+                    </button> </a>
+            </div>
+        </div>
+        <div class="boxE">
+            <div class="boxE-1">
+                <div>
+                    <span class="circleInfoBlue">
+                        <i class="fas fa-info bleu fa-xs "></i>
+                    </span>
+                </div>
+            </div>
+            <div class="boxE-2">
+                <p><span>Plus de 500 logements sont disponibles dans cette ville</span></p>
+            </div>
+        </div>
+    </div>
 
-    
+
     <!-- END NAVIGATION -->
 
     <!-- LODGING -->
-    <div class="lodging">
+    <div class="lodging" id="hebergement">
         <!--LODGING  :  CONTAINER OF TWO BOXES -->
         <!--FIRST BOX -->
         <div class="box1">
             <h1 class="box1-title">Hébergements à Marseille</h1>
             <div class="containerBox1">
                 <div class="box1-1"><img src="Reservia_files/Pictures/Lodging/hostimg1.jpg" alt="">
-                    <span class="figcaption1">Auberge la canebière</span>
-					<p>Nuit à partir de <span>25 €</span></p>
-					<p>
-						<span class="starblue"><i class="fas fa-star blue fa-xs"></i><i
-								class="fas fa-star blue fa-xs"></i><i class="fas fa-star blue fa-xs"></i><i
-								class="fas fa-star blue fa-xs"></i></span><span class="stargrey"><i
-                                    class="fas fa-star grey fa-xs"></i></span>
-					
-					</p>
+                    <span class="figcaption1">Auberge la canebière</span></a>
+                    <p>Nuit à partir de <span>25 €</span></p>
+                    <p>
+                        <span class="starblue"><i class="fas fa-star blue fa-xs"></i><i
+                                class="fas fa-star blue fa-xs"></i><i class="fas fa-star blue fa-xs"></i><i
+                                class="fas fa-star blue fa-xs"></i></span><span class="stargrey"><i
+                                class="fas fa-star grey fa-xs"></i></span>
+
+                    </p>
                 </div>
                 <div class="box1-2"><img src="Reservia_files/Pictures/Lodging/hostimg2.jpg" alt="">
-                	<span class="figcaption1">Hotel du port</span>
-					<p>Nuit à partir de <span>52 €</span></p>
-					<p>
-						<span class="starblue"><i class="fas fa-star blue fa-xs"></i><i
-								class="fas fa-star blue fa-xs"></i><i class="fas fa-star blue fa-xs"></i><i
-								class="fas fa-star blue fa-xs"></i><i class="fas fa-star grey fa-xs"></i>
-					</span>
-					</p>
+                    <span class="figcaption1">Hotel du port</span>
+                    <p>Nuit à partir de <span>52 €</span></p>
+                    <p>
+                        <span class="starblue"><i class="fas fa-star blue fa-xs"></i><i
+                                class="fas fa-star blue fa-xs"></i><i class="fas fa-star blue fa-xs"></i><i
+                                class="fas fa-star blue fa-xs"></i><i class="fas fa-star grey fa-xs"></i>
+                        </span>
+                    </p>
                 </div>
                 <div class="box1-3"><img src="Reservia_files/Pictures/Lodging/hostimg3.jpg" alt="">
                     <span class="figcaption1">Hotel les mouettes</span>
-					<p>Nuit à partir de <span>76 €</span></p>
-					<p>
-						<span class="starblue"><i class="fas fa-star blue fa-xs"></i><i
-								class="fas fa-star blue fa-xs"></i><i class="fas fa-star blue fa-xs"></i><i
-								class="fas fa-star blue fa-xs"></i></span><span class="stargrey"><i
-								class="fas fa-star grey fa-xs"></i>
-					</span>
-					</p>
+                    <p>Nuit à partir de <span>76 €</span></p>
+                    <p>
+                        <span class="starblue"><i class="fas fa-star blue fa-xs"></i><i
+                                class="fas fa-star blue fa-xs"></i><i class="fas fa-star blue fa-xs"></i><i
+                                class="fas fa-star blue fa-xs"></i></span><span class="stargrey"><i
+                                class="fas fa-star grey fa-xs"></i>
+                        </span>
+                    </p>
                 </div>
                 <div class="box1-4"><img src="Reservia_files/Pictures/Lodging/hostimg4.jpg" alt="">
                     <span class="figcaption1">Hotel de la mer</span>
-					<p>Nuit à partir de <span>46 €</span></p>
-					<p>
-						<span class="starblue"><i class="fas fa-star blue fa-xs"></i><i
-								class="fas fa-star blue fa-xs"></i><i class="fas fa-star blue fa-xs"></i></span><span
-							class="stargrey"><i class="fas fa-star blue fa-xs"></i><i
-								class="fas fa-star grey fa-xs"></i>
-					</span>
-					</p>
+                    <p>Nuit à partir de <span>46 €</span></p>
+                    <p>
+                        <span class="starblue"><i class="fas fa-star blue fa-xs"></i><i
+                                class="fas fa-star blue fa-xs"></i><i class="fas fa-star blue fa-xs"></i></span><span
+                            class="stargrey"><i class="fas fa-star blue fa-xs"></i><i
+                                class="fas fa-star grey fa-xs"></i>
+                        </span>
+                    </p>
                 </div>
                 <div class="box1-5"><img src="Reservia_files/Pictures/Lodging/hostimg5.jpg" alt="">
                     <span class="figcaption1">Auberge le Panier</span>
-					<p>Nuit à partir de <span>23 €</span></p>
-					<p>
-						<span class="starblue"><i class="fas fa-star blue fa-xs"></i><i
-								class="fas fa-star blue fa-xs"></i><i class="fas fa-star blue fa-xs"></i><i
-								class="fas fa-star blue fa-xs"></i></span><span class="stargrey"><i
-								class="fas fa-star grey fa-xs"></i>
-					</span>
-					</p>
+                    <p>Nuit à partir de <span>23 €</span></p>
+                    <p>
+                        <span class="starblue"><i class="fas fa-star blue fa-xs"></i><i
+                                class="fas fa-star blue fa-xs"></i><i class="fas fa-star blue fa-xs"></i><i
+                                class="fas fa-star blue fa-xs"></i></span><span class="stargrey"><i
+                                class="fas fa-star grey fa-xs"></i>
+                        </span>
+                    </p>
                 </div>
                 <div class="box1-6"><img src="Reservia_files/Pictures/Lodging/hostimg6.jpg" alt="">
                     <span class="figcaption1">Hotel chez Amina</span>
-					<p>Nuit à partir de <span>96 €</span></p>
-					<p>
-						<span class="starblue"><i class="fas fa-star blue fa-xs"></i><i
-								class="fas fa-star blue fa-xs"></i><i class="fas fa-star blue fa-xs"></i><i
-								class="fas fa-star blue fa-xs"></i><i class="fas fa-star grey fa-xs"></i>
-					</span>
-					</p>
+                    <p>Nuit à partir de <span>96 €</span></p>
+                    <p>
+                        <span class="starblue"><i class="fas fa-star blue fa-xs"></i><i
+                                class="fas fa-star blue fa-xs"></i><i class="fas fa-star blue fa-xs"></i><i
+                                class="fas fa-star blue fa-xs"></i><i class="fas fa-star grey fa-xs"></i>
+                        </span>
+                    </p>
                 </div>
             </div>
             <h1 class="box1-end">Afficher plus</h1>
@@ -203,28 +214,29 @@
             <div class="box2-1">
                 <div class="box2-1-1"><img src="Reservia_files/Pictures/Lodging/hostimg7.jpg" alt=""></div>
                 <div class="box2-1-2">
-                  <span class="figcaption2" >Hotel le soleil du matin </span>
+                    <span class="figcaption2">Hotel le soleil du matin </span>
                     <p>Nuit à partir de <span>128 €</span></p>
                     <p class="starsPosition">
                         <span class="starblue"><i class="fas fa-star blue fa-xs"></i><i
                                 class="fas fa-star blue fa-xs"></i><i class="fas fa-star blue fa-xs"></i><i
                                 class="fas fa-star blue fa-xs"></i><i class="fas fa-star grey fa-xs"></i>
-                    </span>
+                        </span>
                     </p>
-                   
+
                 </div>
             </div>
             <div class="box2-2">
                 <div class="box2-2-1"><img src="Reservia_files/Pictures/Lodging/hostimg8.jpg" alt=""></div>
                 <div class="box2-2-2">
-                    <span class="figcaption2" >Au coeur de l'eau Chambre d'hotes </span>
+                    <span class="figcaption2">Au coeur de l'eau <span class="sub-figcaption2">Chambre d'hotes</span>
+                    </span>
                     <p>Nuit à partir de <span>71 €</span></p>
                     <p class="starsPosition">
                         <span class="starblue"><i class="fas fa-star blue fa-xs"></i><i
                                 class="fas fa-star blue fa-xs"></i><i class="fas fa-star blue fa-xs"></i><i
                                 class="fas fa-star blue fa-xs"></i></span><span class="stargrey"><i
                                 class="fas fa-star grey fa-xs"></i>
-                    </span>
+                        </span>
                     </p>
                 </div>
             </div>
@@ -238,7 +250,7 @@
                                 class="fas fa-star blue fa-xs"></i><i class="fas fa-star blue fa-xs"></i><i
                                 class="fas fa-star blue fa-xs"></i></span><span class="stargrey"><i
                                 class="fas fa-star grey fa-xs"></i>
-                    </span>
+                        </span>
                     </p>
                 </div>
             </div>
@@ -248,7 +260,7 @@
 
     <!-- ACTIVITIES -->
 
-    <div class="activities">
+    <div class="activities" id="activites">
         <div class="box3">
             <h1 class="activites-title">Activités à Marseille</h1>
         </div>
@@ -299,37 +311,37 @@
             </div>
         </div>
     </div>
-        <!-- END ACTIVITIES -->
+    <!-- END ACTIVITIES -->
 
-        <!-- FOOTER -->
-        <div class="footer">
-            <div class="containerFooter">
-                <div class="box4-1">
-                    <ul>
-                        <li class="footerList__title">À propos</li>
-                        <li><a href="">Fonctionnement du site</a></li>
-                        <li><a href="">Conditions générales de vente</a></li>
-                        <li><a href="">Données et confidentialité</a></li>
-                    </ul>
-                </div>
-                <div class="box4-2">
-                    <ul>
-                        <li class="footerList__title">Nos hébergements</li>
-                        <li><a href="">Charte qualité</a></li>
-                        <li><a href="">Soumettre votre hôtel</a></li>
-                    </ul>
-                </div>
-                <div class="box4-3">
-                    <ul>
-                        <li class="footerList__title">Assistance</li>
-                        <li><a href="">Centre d’aide</a></li>
-                        <li><a href="">Nous contacter</a></li>
-                    </ul>
-                </div>
+    <!-- FOOTER -->
+    <div class="footer">
+        <div class="containerFooter">
+            <div class="box4-1">
+                <ul>
+                    <li class="footerList__title">À propos</li>
+                    <li><a href="">Fonctionnement du site</a></li>
+                    <li><a href="">Conditions générales de vente</a></li>
+                    <li><a href="">Données et confidentialité</a></li>
+                </ul>
             </div>
-
+            <div class="box4-2">
+                <ul>
+                    <li class="footerList__title">Nos hébergements</li>
+                    <li><a href="">Charte qualité</a></li>
+                    <li><a href="">Soumettre votre hôtel</a></li>
+                </ul>
+            </div>
+            <div class="box4-3">
+                <ul>
+                    <li class="footerList__title">Assistance</li>
+                    <li><a href="">Centre d’aide</a></li>
+                    <li><a href="">Nous contacter</a></li>
+                </ul>
+            </div>
         </div>
-        <!-- END FOOTER -->
+
+    </div>
+    <!-- END FOOTER -->
 </body>
 
 </html>

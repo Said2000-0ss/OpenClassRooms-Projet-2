@@ -1,18 +1,14 @@
 /********************************************************************* HEADER ****************************************************************/
 
 .pageHead {
-    /*margin-top: 1%;*/
-    /* padding-left: 4%; */
-    /* height: 85px; */
     display: grid;
-    grid-template-columns: 63% 27% 10%;
+    grid-template-columns: 57% 33% 10%;
 }
 
 .pageHead__logo {
     grid-column-start: 1;
     width: 14%;
-    padding-left:5%; 
-    
+    padding-left: 5%;
 }
 
 .pageHead__navItem {
@@ -26,7 +22,7 @@
 .pageHead__navItem:hover {
     color: #0065FC;
     border-top: 2px solid #0065FC;
-    padding-top: 4%;
+    padding-top: 6.5%;
 }
 
 .pageHead__itemRegister {

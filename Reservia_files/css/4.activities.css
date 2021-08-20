@@ -10,12 +10,6 @@
     margin-top: -14%;
 }
 
-.box3 {
-    /*margin-top: 10px;
-    display: grid;
-    grid-template-rows: 50% 50%;*/
-}
-
 .activites-title {
     grid-row-start: 1;
 }
@@ -104,7 +98,6 @@
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 5%;
-    
 }
 
 .box3-2-2-1 {
@@ -280,4 +273,54 @@
     font-weight: bold;
     padding-left: 11px;
     font-size: 0.85em;
+}
+
+/*****************************************************************HOVER***************************************************/
+
+.box3-1:hover {
+    border-color: #0065FC;
+    border-style: solid;
+    border: 2px;
+    background: #F4F0EF;
+    border-radius: 10px;
+}
+
+.box3-2-1:hover {
+    border-color: #0065FC;
+    border-style: solid;
+    border: 2px;
+    background: #F4F0EF;
+    border-radius: 10px;
+}
+
+.box3-2-2:hover {
+    border-color: #0065FC;
+    border-style: solid;
+    border: 2px;
+    background: #F4F0EF;
+    border-radius: 10px;
+}
+
+.box3-3:hover {
+    border-color: #0065FC;
+    border-style: solid;
+    border: 2px;
+    background: #F4F0EF;
+    border-radius: 10px;
+}
+
+.box3-4-1:hover {
+    border-color: #0065FC;
+    border-style: solid;
+    border: 2px;
+    background: #F4F0EF;
+    border-radius: 10px;
+}
+
+.box3-4-2:hover {
+    border-color: #0065FC;
+    border-style: solid;
+    border: 2px;
+    background: #F4F0EF;
+    border-radius: 10px;
 }

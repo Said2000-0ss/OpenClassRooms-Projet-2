@@ -28,7 +28,9 @@
     border-radius: 10px;
     margin-right: 5%;
 }
+
 /******************************************************************BOX 1********************************************************************/
+
 .box1-title {
     grid-row-start: 1;
     position: relative;
@@ -61,7 +63,6 @@
     width: 80%;
     position: relative;
     margin-left: 10%;
-  
     border-radius: 10px;
     padding: 1%;
 }
@@ -72,7 +73,6 @@
     width: 80%;
     position: relative;
     margin-left: 5%;
-   
     border-radius: 10px;
     padding: 1%;
 }
@@ -84,7 +84,6 @@
     position: relative;
     margin-top: 2%;
     margin-left: 15%;
-  
     border-radius: 10px;
     padding: 1%;
 }
@@ -96,7 +95,6 @@
     position: relative;
     margin-top: 2%;
     margin-left: 10%;
-   
     border-radius: 10px;
     padding: 1%;
 }
@@ -108,7 +106,6 @@
     position: relative;
     margin-top: 2%;
     margin-left: 5%;
-    
     border-radius: 10px;
     padding: 1%;
 }
@@ -119,7 +116,9 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
 /******************************************************************BOX 2********************************************************************/
+
 .box2-title {
     grid-row-start: 1;
     position: relative;
@@ -127,9 +126,11 @@
     display: grid;
     grid-template-columns: 80% 20%;
 }
-.box2-title-sentence>h1{
+
+.box2-title-sentence>h1 {
     margin-bottom: 0%;
 }
+
 .box2-title-sentence {
     grid-column-start: 1;
 }
@@ -156,12 +157,12 @@
 
 .box2-1-1 {
     grid-column-start: 1;
-    position:relative;
+    position: relative;
 }
 
 .box2-1-2 {
     grid-column-start: 2;
-    position:relative;
+    position: relative;
 }
 
 .box2-2 {
@@ -204,6 +205,53 @@
 
 .box2-3-2 {
     grid-column-start: 2;
+}
+
+/***********************************************************SURVOL DIV HOVER*******************************************************/
+
+.box1-1:hover {
+    border-color: #0065FC;
+    border-style: dotted;
+}
+
+.box1-2:hover {
+    border-color: #0065FC;
+    border-style: dotted;
+}
+
+.box1-3:hover {
+    border-color: #0065FC;
+    border-style: dotted;
+}
+
+.box1-4:hover {
+    border-color: #0065FC;
+    border-style: dotted;
+}
+
+.box1-5:hover {
+    border-color: #0065FC;
+    border-style: dotted;
+}
+
+.box1-6:hover {
+    border-color: #0065FC;
+    border-style: dotted;
+}
+
+.box2-1:hover {
+    border-color: #0065FC;
+    border-style: dotted;
+}
+
+.box2-2:hover {
+    border-color: #0065FC;
+    border-style: dotted;
+}
+
+.box2-3:hover {
+    border-color: #0065FC;
+    border-style: dotted;
 }
 
 /***********************************************************PICTURES*******************************************************/
@@ -297,7 +345,9 @@
     border-bottom-left-radius: 10px;
     object-fit: cover;
 }
+
 /****************************************************************** STARS ********************************************************************/
+
 .starblue {
     color: blue;
 }
@@ -321,7 +371,6 @@
 
 .figcaption2 {
     font-weight: bold;
-    float: right;
     padding-top: 5px;
     padding-left: 8px;
     padding-bottom: 0px;
@@ -332,10 +381,18 @@
     font-size: medium;
 }
 
+.sub-figcaption2 {
+    padding-left: 9px;
+}
+
 .lodging p {
     margin-top: 2px;
     margin-bottom: 0px;
     text-align: left;
     padding-left: 10px;
     padding-top: 0px;
+}
+
+.lodginga {
+    color: black;
 }

@@ -1,14 +1,9 @@
-
-
-/****************************************************************************************************/
-
 /********************************************************************* HEADER ****************************************************************/
 
 .pageHead {
     margin-top: 0px;
     padding-left: 0%;
     height: 100%;
-    /* width: 100%; */
     display: grid;
     grid-template-rows: 40% 60%;
     grid-template-columns: 100%;
@@ -34,15 +29,13 @@
     padding-left: 18%;
     font-size: 1.8em;
     border-bottom: 4px solid #DEEBFF;
-  /* border-width: 150%;*/
-   
 }
 
 .pageHead__navItem:hover {
-	color: #0065FC;
-	border-top: none;
-	padding-top: 39px;
-	border-bottom: 2px solid #0065FC;
+    color: #0065FC;
+    border-top: none;
+    padding-top: 39px;
+    border-bottom: 2px solid #0065FC;
 }
 
 .pageHead__itemRegister {
@@ -63,24 +56,19 @@
     display: grid;
     grid-template-columns: 50% 50%;
 }
-#pageHead__navItemLodging{
+
+#pageHead__navItemLodging {
     grid-row-start: 1;
     grid-column-start: 1;
-    
-  padding-left:30%;
-    /*border-width: 100%;*/
-    
-
+    padding-left: 30%;
 }
-#pageHead__navItemActivities{
+
+#pageHead__navItemActivities {
     grid-row-start: 1;
     grid-column-start: 2;
-   
-   /* border-width: 100%;*/
 }
 
 /********************************************* Navigation **************************************************/
-/****************************************************navigation******************************************************/
 
 #h2navigation {
     margin-top: 0%;
@@ -118,19 +106,17 @@ h5 {
 }
 
 .containerNavigation>.boxA {
-	grid-row-start: 1;
+    grid-row-start: 1;
     grid-column-start: 1;
-	
 }
 
 .containerNavigation>.boxB {
-	grid-row-start: 2;
+    grid-row-start: 2;
     grid-column-start: 1;
 }
 
 .containerNavigation>.boxC {
-	
-	grid-row-start: 3;
+    grid-row-start: 3;
     grid-column-start: 1;
     display: grid;
     grid-template-columns: 10% 66%;
@@ -142,8 +128,7 @@ h5 {
 }
 
 .containerNavigation>.boxC>.boxC-2 {
-    
-	grid-column-start: 2;
+    grid-column-start: 2;
 }
 
 .containerNavigation>.boxC>.boxC-3 {
@@ -152,13 +137,11 @@ h5 {
 }
 
 .containerNavigation>.boxD {
- 
     padding: 0;
     display: grid;
     grid-template-rows: none;
     display: block;
     grid-template-columns: 50% 50%;
-	
 }
 
 .containerNavigation>.boxD>.boxD-1 {
@@ -169,48 +152,37 @@ h5 {
     margin-left: 0px;
     margin-bottom: 0px;
     font-size: 1.2em;
-   
-	
-	
 }
 
-.containerNavigation>.boxD>.containerTwoBoxes{
+.containerNavigation>.boxD>.containerTwoBoxes {
     grid-row-start: 5;
     display: grid;
     grid-template-columns: 21% 16%;
     padding-top: 2%;
     padding-bottom: 12%;
 }
+
 .containerNavigation>.boxD>.boxD-2 {
     grid-row-start: 5;
     grid-column-start: 1;
-    
     margin-top: 0%;
     padding-top: 0px;
     padding-left: 0;
-
-	
-	
 }
 
 .containerNavigation>.boxD>.boxD-3 {
-	
     grid-row-start: 5;
     grid-column-start: 2;
     margin-top: 0%;
     padding-top: 0px;
     margin-left: 0%;
-	
 }
 
 .containerNavigation>.boxD>.boxD-4 {
-    
     grid-row-start: 6;
     margin-top: -8%;
     padding-top: 0px;
     padding-left: 0;
-	
-	
 }
 
 .containerNavigation>.boxD>.boxD-5 {
@@ -220,7 +192,6 @@ h5 {
     padding-top: 0px;
     padding-left: 0;
     font-size: 1.3em;
-	
 }
 
 .containerNavigation>.boxE {
@@ -233,16 +204,17 @@ h5 {
 }
 
 .containerNavigation>.boxE>.boxE-1 {
-	grid-column-start: 1;
-	padding-top: 0px;
+    grid-column-start: 1;
+    padding-top: 0px;
     padding-left: 0px;
 }
 
 .containerNavigation>.boxE>.boxE-2 {
-	grid-column-start: 2;
-	padding-left: 0;
+    grid-column-start: 2;
+    padding-left: 0;
     font-size: 0.8em;
 }
+
 .boxE-2>p {
     margin-top: 2px;
     margin-bottom: 0px;
@@ -251,49 +223,49 @@ h5 {
 }
 
 .Informationpicture {
-	width: 30px;
-	padding-left: 50px;
-	padding-top: 12px;
+    width: 30px;
+    padding-left: 50px;
+    padding-top: 12px;
 }
 
 .containerNavigation>.boxD>.boxD-1>p {
-	margin-top: 0;
-	margin-bottom: 0px;
-	text-align: left;
-	padding-left: 0px;
-	padding-top: 0px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    text-align: left;
+    padding-left: 0px;
+    padding-top: 0px;
 }
 
 .boxE-2>p {
-	margin-top: 0;
-	margin-bottom: 0px;
-	padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding-left: 0;
 }
 
 .fit-picture {
-	grid-column-start: 1;
-	border-top-left-radius: 30%;
-	border-bottom-left-radius: 30%;
-	height: 35px;
-	padding-left: 50px;
+    grid-column-start: 1;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    height: 35px;
+    padding-left: 50px;
 }
 
 .filter {
-	font-weight: bold;
-	margin-top: 0px;
-	padding-left: 0px;
+    font-weight: bold;
+    margin-top: 0px;
+    padding-left: 0px;
 }
 
 .circleAroundIcon {
-	background-color: #DEEBFF;
-	border-radius: 50%;
-	border-color: blue;
-	height: 24px;
-	width: 24px;
-	align-items: center;
-	justify-content: center;
-	padding: 11px;
-	color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    border-color: blue;
+    height: 24px;
+    width: 24px;
+    align-items: center;
+    justify-content: center;
+    padding: 11px;
+    color: #0065FC;
 }
 
 .titleCircleAroundIcon {
@@ -312,28 +284,27 @@ h5 {
 }
 
 .circleInfoBlue {
-	border: 3px solid #F2F2F2;
-	border-radius: 50%;
-	align-items: center;
-	justify-content: center;
-	padding: 3px;
-	padding-top: 1px;
-	color: #0065FC;
+    border: 3px solid #F2F2F2;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    padding-top: 1px;
+    color: #0065FC;
 }
 
 .iconsearch {
     background-color: #F2F2F2;
     color: Black;
-    /* padding-top: 29%; */
     padding-left: 34%;
     margin-left: 0;
     height: 82%;
-    /* padding-bottom: 19%; */
     border-bottom-left-radius: 7px;
     border-top-left-radius: 7px;
 }
-.iconsearch>i{
-    padding-bottom:0;
+
+.iconsearch>i {
+    padding-bottom: 0;
 }
 
 #buttonsearch {
@@ -355,12 +326,13 @@ input {
 }
 
 .pictureButton1 {
-	border: 0px;
-	background-color: white;
+    border: 0px;
+    background-color: white;
     padding-left: 0;
 }
 
 /************************************************************************************************/
+
 .lodging {
     display: grid;
     grid-template-rows: 100% 106%;
@@ -370,7 +342,7 @@ input {
 }
 
 .box1 {
-    margin-top: -111%;
+    margin-top: -104%;
     grid-row-start: 2;
     display: grid;
     grid-template-rows: 4% 96%;
@@ -397,10 +369,12 @@ input {
     position: relative;
     border-radius: 0px;
     height: 50%;
-    width: 105%;
+    width: 108%;
     margin-left: -3%;
 }
+
 /******************************************************************BOX 1********************************************************************/
+
 .box1-title {
     grid-row-start: 1;
     position: relative;
@@ -412,16 +386,16 @@ input {
 .containerBox1 {
     grid-row-start: 2;
     display: grid;
-    
     grid-template-rows: 15% 15% 15% 15% 15% 15%;
-	display: grid;
+    display: grid;
     grid-template-columns: 100%;
     background-color: white;
     position: relative;
 }
-.containerBox1>h1{
-    padding:0;
-    margin:0;
+
+.containerBox1>h1 {
+    padding: 0;
+    margin: 0;
 }
 
 .box1-1 {
@@ -432,7 +406,7 @@ input {
     width: 96%;
     position: relative;
     margin-left: 2%;
-    width: 714px;
+    width: 827px;
     height: 220px;
     border-radius: 10px;
     padding: 1%;
@@ -440,15 +414,15 @@ input {
 }
 
 .box1-2 {
-	grid-row-start: 2;
-	grid-column-start: 1;
+    grid-row-start: 2;
+    grid-column-start: 1;
     background-color: white;
-    margin-top:8px;
+    margin-top: 8px;
     height: 95%;
     width: 96%;
     position: relative;
     margin-left: 2%;
-    width: 714px;
+    width: 827px;
     height: 220px;
     margin-bottom: 5%;
     border-radius: 10px;
@@ -457,14 +431,13 @@ input {
 }
 
 .box1-3 {
-   
     background-color: white;
-    margin-top:16px;
+    margin-top: 16px;
     height: 95%;
     width: 96%;
     position: relative;
     margin-left: 2%;
-    width: 714px;
+    width: 827px;
     height: 220px;
     margin-bottom: 5%;
     border-radius: 10px;
@@ -474,12 +447,12 @@ input {
 
 .box1-4 {
     background-color: white;
-    margin-top:25px;
+    margin-top: 25px;
     height: 95%;
     width: 96%;
     position: relative;
     margin-left: 2%;
-    width: 714px;
+    width: 827px;
     height: 220px;
     margin-bottom: 5%;
     border-radius: 10px;
@@ -489,12 +462,12 @@ input {
 
 .box1-5 {
     background-color: white;
-    margin-top:34px;
+    margin-top: 34px;
     height: 95%;
     width: 96%;
     position: relative;
     margin-left: 2%;
-    width: 714px;
+    width: 827px;
     height: 220px;
     margin-bottom: 5%;
     border-radius: 10px;
@@ -504,12 +477,12 @@ input {
 
 .box1-6 {
     background-color: white;
-    margin-top:44px;
+    margin-top: 44px;
     height: 95%;
     width: 96%;
     position: relative;
     margin-left: 2%;
-    width: 714px;
+    width: 827px;
     height: 220px;
     margin-bottom: 5%;
     border-radius: 10px;
@@ -527,6 +500,7 @@ input {
 }
 
 /******************************************************************BOX 2********************************************************************/
+
 .box2-title {
     grid-row-start: 1;
     position: relative;
@@ -538,23 +512,22 @@ input {
 .box2-title-sentence {
     grid-column-start: 1;
     grid-column-start: 1;
-    font-size: 130%;
+    font-size: 188%;
     padding-top: 2%;
 }
 
 .box2-title-icon {
-   
     grid-column-start: 2;
     position: relative;
     padding-top: 16%;
     padding-left: 33%;
     padding-left: 33%;
 }
-.box2-title-icon>i{
+
+.box2-title-icon>i {
     width: 1%;
     height: 10%;
 }
-
 
 .box2-1 {
     grid-row-start: 2;
@@ -566,18 +539,18 @@ input {
     margin-left: 5%;
     padding: 1%;
     margin-right: 5%;
-    width: 714px;
+    width: 827px;
     height: 220px;
 }
 
 .box2-1-1 {
     grid-column-start: 1;
-    position:relative;
+    position: relative;
 }
 
 .box2-1-2 {
     grid-column-start: 2;
-    position:relative;
+    position: relative;
 }
 
 .box2-2 {
@@ -591,7 +564,7 @@ input {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 0%;
-    width: 714px;
+    width: 827px;
     height: 220px;
 }
 
@@ -614,7 +587,7 @@ input {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 0%;
-    width: 714px;
+    width: 827px;
     height: 220px;
 }
 
@@ -627,9 +600,7 @@ input {
 }
 
 /***********************************************************PICTURES*******************************************************/
-.starsPosition{
 
-}
 .box1-1>img {
     width: 98%;
     height: 50%;
@@ -706,7 +677,7 @@ input {
 
 .box2-2-1>img {
     width: 99%;
-    height: 100%;
+    height: 89%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     object-fit: cover;
@@ -714,12 +685,14 @@ input {
 
 .box2-3-1>img {
     width: 99%;
-    height: 51%;
+    height: 45%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     object-fit: cover;
 }
+
 /****************************************************************** STARS ********************************************************************/
+
 .starblue {
     color: blue;
 }
@@ -734,7 +707,7 @@ input {
 
 .figcaption1 {
     padding-top: 0%;
-    padding-left: 2%;
+    padding-left: 1%;
     padding-bottom: 0px;
     margin-bottom: 0px;
     font-weight: bold;
@@ -743,7 +716,6 @@ input {
 
 .figcaption2 {
     font-weight: bold;
-    float: right;
     padding-top: 5%;
     padding-left: 0%;
     padding-bottom: 0px;
@@ -752,6 +724,10 @@ input {
     margin-right: 0px;
     margin-top: 0px;
     font-size: 1.63em;
+}
+
+.sub-figcaption2 {
+    padding-left: 0px;
 }
 
 .lodging p {
@@ -764,6 +740,7 @@ input {
 }
 
 /**************************************************************************************************/
+
 .activities {
     margin-left: 0%;
     position: relative;
@@ -776,7 +753,7 @@ input {
 }
 
 .box3 {
-    margin-top: 113%;
+    margin-top: 96%;
     display: grid;
     grid-template-rows: 100%;
     grid-template-columns: 100%;
@@ -792,7 +769,6 @@ input {
     grid-template-rows: 13% 13% 13% 13% 13% 13%;
     grid-template-columns: 100%;
     margin-left: 1%;
-    
 }
 
 .box3-1 {
@@ -806,7 +782,7 @@ input {
     width: 100%;
     margin-left: 2%;
     height: 220px;
-    width: 714px;
+    width: 827px;
 }
 
 .box3-1-1 {
@@ -821,7 +797,6 @@ input {
 
 .box3-1-2 {
     grid-row-start: 2;
-    
     background-color: white;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -832,7 +807,6 @@ input {
 }
 
 .box3-2 {
-    
     grid-column-start: 1;
     display: block;
     grid-template-rows: 80% 20%;
@@ -847,12 +821,11 @@ input {
     grid-template-rows: 80% 20%;
     margin-left: 2%;
     height: 220px;
-    width: 714px;
+    width: 827px;
     padding-top: 0%;
     overflow: hidden;
     margin-left: 2%;
     padding-left: 0%;
-    
 }
 
 .box3-2-1-1 {
@@ -883,13 +856,11 @@ input {
     grid-template-rows: 80% 20%;
     margin-left: 2%;
     height: 220px;
-    width: 714px;
+    width: 827px;
     padding-top: 2%;
     padding-left: 0%;
     padding-right: 0%;
     margin-top: 0%;
-   
-   
     margin-top: 0%;
 }
 
@@ -921,7 +892,7 @@ input {
     grid-template-rows: 80% 20%;
     margin-left: 2%;
     height: 220px;
-    width: 714px;
+    width: 827px;
     padding-top: 0%;
     padding-bottom: 0;
     padding-left: 0%;
@@ -955,10 +926,8 @@ input {
 }
 
 .box3-4 {
-   
     grid-column-start: 1;
     display: block;
-    /* grid-template-rows: 50% 50%; */
     height: 85%;
 }
 
@@ -968,17 +937,15 @@ input {
     grid-template-rows: 80% 20%;
     margin-left: 2%;
     height: 220px;
-    width: 714px;
+    width: 827px;
     padding-top: 0%;
     padding-left: 0%;
     padding-right: 0%;
     margin-top: 63%;
-    
 }
 
 .box3-4-1-1 {
     grid-row-start: 1;
-  
     border-top-style: solid;
     border-left-style: solid;
     border-top-left-radius: 12px;
@@ -1004,10 +971,9 @@ input {
     grid-template-rows: 80% 20%;
     margin-left: 2%;
     height: 220px;
-    width: 714px;
+    width: 827px;
     padding-top: 2%;
     padding-left: 0%;
-  
 }
 
 .box3-4-2-1 {
@@ -1085,70 +1051,60 @@ figcaption {
     padding-top: 1%;
     font-size: 1em;
 }
+
 .titleActivities {
     font-weight: bold;
     padding-left: 11px;
     font-size: 1em;
 }
 
-/*******************************************************************************************************************/
 /************************************************************** FOOTER ***************************************************************/
 
-.footer{
+.footer {
     background-color: #F2F2F2;
     margin-left: 0%;
-    margin-top: -47%;
+    margin-top: -44%;
 }
 
-
-
-.footer ul{
+.footer ul {
     width: 97%;
     line-height: 2em;
     list-style-type: none;
     padding-left: 3%;
 }
 
-
-.footer li a{
-    
+.footer li a {
     font-weight: normal;
-	color: black;
+    color: black;
     font-size: 1em;
-    
-    
 }
 
-.footerList__title{
+.footerList__title {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 1%;
 }
-
 
 .containerFooter {
     margin-top: 0%;
     width: 100%;
     margin-left: 0%;
     display: grid;
-    grid-template-rows:33.33% 33.33% 33.33%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
     grid-template-columns: 100%;
 }
 
 .box4-1 {
     grid-row-start: 1;
     grid-column-start: 1;
-    
 }
 
 .box4-2 {
     grid-row-start: 2;
     grid-column-start: 1;
-    
 }
 
 .box4-3 {
     grid-row-start: 3;
     grid-column-start: 1;
-    
 }
