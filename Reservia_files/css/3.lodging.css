@@ -210,48 +210,66 @@
 /***********************************************************SURVOL DIV HOVER*******************************************************/
 
 .box1-1:hover {
-    border-color: #0065FC;
-    border-style: dotted;
+    border-style: solid;
+    border: 2px;
+    background: #A9A9A9;
+    border-radius: 10px;
 }
 
 .box1-2:hover {
-    border-color: #0065FC;
-    border-style: dotted;
+    border-style: solid;
+    border: 2px;
+    background: #A9A9A9;
+    border-radius: 10px;
 }
 
 .box1-3:hover {
-    border-color: #0065FC;
-    border-style: dotted;
+    border-style: solid;
+    border: 2px;
+    background: #A9A9A9;
+    border-radius: 10px;
 }
 
 .box1-4:hover {
-    border-color: #0065FC;
-    border-style: dotted;
+    border-style: solid;
+    border: 2px;
+    background: #A9A9A9;
+    border-radius: 10px;
 }
 
 .box1-5:hover {
-    border-color: #0065FC;
-    border-style: dotted;
+    border-style: solid;
+    border: 2px;
+    background: #A9A9A9;
+    border-radius: 10px;
 }
 
 .box1-6:hover {
-    border-color: #0065FC;
-    border-style: dotted;
+    border-style: solid;
+    border: 2px;
+    background: #A9A9A9;
+    border-radius: 10px;
 }
 
 .box2-1:hover {
-    border-color: #0065FC;
-    border-style: dotted;
+    border-style: solid;
+    border: 2px;
+    background: #A9A9A9;
+    border-radius: 10px;
 }
 
 .box2-2:hover {
-    border-color: #0065FC;
-    border-style: dotted;
+    border-style: solid;
+    border: 2px;
+    background: #A9A9A9;
+    border-radius: 10px;
 }
 
 .box2-3:hover {
-    border-color: #0065FC;
-    border-style: dotted;
+     border-style: solid;
+    border: 2px;
+    background: #A9A9A9;
+    border-radius: 10px;
 }
 
 /***********************************************************PICTURES*******************************************************/
