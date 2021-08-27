@@ -42,7 +42,7 @@
     grid-column-start: 2;
     grid-row-start: 1;
     color: #0065FC;
-    padding-top: 11px;
+    padding-top: 28px;
     font-size: 1.7em;
     margin-left: -125px;
 }
@@ -615,8 +615,8 @@ input {
 .box1-1>img {
     width: 98%;
     height: 50%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
     object-fit: cover;
     padding-top: 1%;
     padding-left: 1%;
@@ -626,8 +626,8 @@ input {
 .box1-2>img {
     width: 98%;
     height: 50%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
     object-fit: cover;
     padding-top: 1%;
     padding-left: 1%;
@@ -637,8 +637,8 @@ input {
 .box1-3>img {
     width: 98%;
     height: 50%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
     object-fit: cover;
     padding-top: 1%;
     padding-left: 1%;
@@ -648,8 +648,8 @@ input {
 .box1-4>img {
     width: 98%;
     height: 50%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
     object-fit: cover;
     padding-top: 1%;
     padding-left: 1%;
@@ -659,8 +659,8 @@ input {
 .box1-5>img {
     width: 98%;
     height: 50%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
     object-fit: cover;
     padding-top: 1%;
     padding-left: 1%;
@@ -670,8 +670,8 @@ input {
 .box1-6>img {
     width: 98%;
     height: 50%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
     object-fit: cover;
     padding-top: 1%;
     padding-left: 1%;
