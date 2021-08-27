@@ -67,7 +67,7 @@ h5 {
 .containerNavigation {
     display: grid;
     grid-template-rows: 26% 18% 40% 40% 28%;
-    padding-left: 39px;
+    padding-left: 26px;
     padding-top: 3%;
 }
 
@@ -282,7 +282,7 @@ input {
     height: 70%;
     position: relative;
     margin-right: 5%;
-    margin-left: 5%;
+    margin-left: 3%;
     border-radius: 10px;
 }
 
