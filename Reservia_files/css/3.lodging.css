@@ -153,6 +153,7 @@
     padding: 1%;
     margin-right: 5%;
     margin-bottom: 3%;
+    overflow:hidden;
 }
 
 .box2-1-1 {
@@ -176,6 +177,7 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-Bottom: 3%;
+    overflow: hidden;
 }
 
 .box2-2-1 {
@@ -194,6 +196,7 @@
     padding: 1%;
     position: relative;
     background-color: white;
+    overflow: hidden;
     margin-left: 5%;
     margin-right: 5%;
     margin-Bottom: 3%;
@@ -368,6 +371,7 @@
 
 .starblue {
     color: blue;
+   
 }
 
 .stargrey {
@@ -376,6 +380,20 @@
 
 .starsPosition {
     padding-top: 30px;
+    
+}
+.lodging .box2 p {
+    padding-top: 0px;
+   
+  
+}
+.starsPosition2{
+    padding-top: 20%;
+    padding-left:5%;
+}
+.starsPosition1{
+    padding-top: 30%;
+    padding-left:5%;
 }
 
 .figcaption1 {
@@ -388,6 +406,7 @@
 }
 
 .figcaption2 {
+    display:block;
     font-weight: bold;
     padding-top: 5px;
     padding-left: 8px;
@@ -400,7 +419,7 @@
 }
 
 .sub-figcaption2 {
-    padding-left: 9px;
+    padding-left: 0px;
 }
 
 .lodging p {
@@ -409,6 +428,7 @@
     text-align: left;
     padding-left: 10px;
     padding-top: 0px;
+    overflow: hidden;
 }
 
 .lodginga {

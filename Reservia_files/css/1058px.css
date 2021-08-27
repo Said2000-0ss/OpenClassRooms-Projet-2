@@ -1,77 +1,48 @@
 /********************************************************************* HEADER ****************************************************************/
 
 .pageHead {
-    margin-top: 0px;
-    padding-left: 0%;
-    height: 100%;
     display: grid;
-    grid-template-rows: 40% 60%;
-    grid-template-columns: 100%;
-    width: 100%;
+    grid-template-columns: 54% 37% 9%;
 }
 
 .pageHead__logo {
     grid-column-start: 1;
-    grid-row-start: 1;
-    width: 19%;
-    padding-left: 0%;
+    width: 14%;
+    padding-left: 5%;
 }
 
 .pageHead__navItem {
-    grid-column-start: 1;
-    grid-row-start: 2;
-    padding: 0px;
-    padding-top: 0%;
+    grid-column-start: 2;
+    padding: 0px 35px;
     font-weight: normal;
-    padding-bottom: 2%;
     Color: black;
-    margin-left: 0%;
-    padding-left: 18%;
-    font-size: 1em;
-    border-bottom: 4px solid #DEEBFF;
+    margin-left: 0px;
 }
 
 .pageHead__navItem:hover {
     color: #0065FC;
-    border-top: none;
-    padding-top: 39px;
-    border-bottom: 2px solid #0065FC;
+    border-top: 2px solid #0065FC;
+    padding-top: 6.5%;
 }
 
 .pageHead__itemRegister {
-    grid-column-start: 2;
-    grid-row-start: 1;
+    grid-column-start: 3;
     color: #0065FC;
-    padding-top: 6px;
-    font-size: 1.1em;
-    margin-left: -95px;
+    padding: 0px 0px;
+    padding-left: 0px;
+    padding-top: 21%;
 }
 
 .pageHead__nav {
     margin-right: 0px;
     padding-right: 0px;
-    margin-top: 0px;
-    margin-left: -1%;
-    padding-top: 3%;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    padding-top: 5%;
 }
 
-#pageHead__navItemLodging {
-    grid-row-start: 1;
-    grid-column-start: 1;
-    padding-left: 30%;
-}
-
-#pageHead__navItemActivities {
-    grid-row-start: 1;
-    grid-column-start: 2;
-}
-
-/********************************************* Navigation **************************************************/
+/****************************************************navigation******************************************************/
 
 #h2navigation {
-    margin-top: 0%;
+    margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -79,52 +50,43 @@
     padding-right: 0px;
     padding-top: 0px;
     padding-left: 0px;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 h5 {
-    margin-top: 0%;
-    margin-left: 0%;
+    margin-top: 0px;
+    margin-left: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    padding-bottom: 0px;
     padding-right: 0px;
     padding-top: 0px;
-    padding-left: 0;
-    font-size: 118%;
-    font-weight: normal;
+    padding-left: 0px;
 }
 
 .containerNavigation {
     display: grid;
-    grid-template-rows: 16% 9% 10% 10% 13% 14% 14% 10%;
-    grid-template-columns: 101%;
-    padding-left: 10px;
-    padding-top: 2%;
-    margin-left: 0px;
+    grid-template-rows: 26% 18% 40% 40% 28%;
+    padding-left: 39px;
+    padding-top: 3%;
 }
 
 .containerNavigation>.boxA {
     grid-row-start: 1;
-    grid-column-start: 1;
 }
 
 .containerNavigation>.boxB {
     grid-row-start: 2;
-    grid-column-start: 1;
 }
 
 .containerNavigation>.boxC {
     grid-row-start: 3;
-    grid-column-start: 1;
     display: grid;
-    grid-template-columns: 10% 66%;
+    grid-template-columns: 6% 15% 33%;
 }
 
 .containerNavigation>.boxC>.boxC-1 {
     grid-column-start: 1;
-    height: 73%;
 }
 
 .containerNavigation>.boxC>.boxC-2 {
@@ -133,93 +95,63 @@ h5 {
 
 .containerNavigation>.boxC>.boxC-3 {
     grid-column-start: 3;
-    height: 93%;
 }
 
 .containerNavigation>.boxD {
-    padding: 0;
+    grid-row-start: 4;
     display: grid;
-    grid-template-rows: none;
-    display: block;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 6% 36% 17% 21%;
+    padding-top: 0px;
 }
 
 .containerNavigation>.boxD>.boxD-1 {
-    grid-row-start: 4;
     grid-column-start: 1;
-    margin-top: 0%;
-    padding-top: 2%;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    font-size: 1.2em;
-}
-
-.containerNavigation>.boxD>.containerTwoBoxes {
-    grid-row-start: 5;
-    display: grid;
-    grid-template-columns: 50% 45%;
-    padding-top: 2%;
-    padding-bottom: 12%;
 }
 
 .containerNavigation>.boxD>.boxD-2 {
-    grid-row-start: 5;
-    grid-column-start: 1;
-    margin-top: 0%;
-    padding-top: 0px;
-    padding-left: 0;
+    grid-column-start: 2;
+    padding-top: 5px;
+}
+
+.containerTwoBoxes {
+    grid-column-start: 2;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 1%;
 }
 
 .containerNavigation>.boxD>.boxD-3 {
-    grid-row-start: 5;
-    grid-column-start: 2;
-    margin-top: 0%;
-    padding-top: 0px;
-    margin-left: 0%;
+    grid-column-start: 1;
+    padding-top: 5px;
 }
 
 .containerNavigation>.boxD>.boxD-4 {
-    grid-row-start: 6;
-    margin-top: -8%;
-    padding-top: 0px;
-    padding-left: 0;
+    grid-column-start: 3;
+    padding-top: 5px;
 }
 
 .containerNavigation>.boxD>.boxD-5 {
-    grid-column-start: 1;
-    grid-row-start: 7;
-    margin-top: 4%;
-    padding-top: 0px;
-    padding-left: 0;
-    font-size: 1.3em;
+    grid-column-start: 4;
+    padding-top: 5px;
 }
 
 .containerNavigation>.boxE {
-    grid-row-start: 8;
+    grid-row-start: 5;
     display: grid;
-    grid-template-columns: 3% 95%;
-    margin-top: 0%;
-    padding-top: 5%;
-    margin-bottom: 0px;
+    grid-template-columns: 1% 99%;
+    padding-top: 0px;
 }
 
 .containerNavigation>.boxE>.boxE-1 {
     grid-column-start: 1;
-    padding-top: 0px;
+    padding-top: 3px;
     padding-left: 0px;
 }
 
 .containerNavigation>.boxE>.boxE-2 {
     grid-column-start: 2;
-    padding-left: 0;
-    font-size: 0.8em;
-}
-
-.boxE-2>p {
-    margin-top: 2px;
-    margin-bottom: 0px;
-    margin-left: 4px;
-    font-size: 1.2em;
+    padding-left: 6px;
+    padding-top: 3px;
 }
 
 .Informationpicture {
@@ -229,17 +161,18 @@ h5 {
 }
 
 .containerNavigation>.boxD>.boxD-1>p {
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: 0px;
     text-align: left;
     padding-left: 0px;
-    padding-top: 0px;
+    padding-top: 7%;
 }
 
 .boxE-2>p {
-    margin-top: 0;
+    margin-top: 2px;
     margin-bottom: 0px;
-    padding-left: 0;
+    padding-left: 2px;
+    font-size: 0.85em;
 }
 
 .fit-picture {
@@ -253,34 +186,36 @@ h5 {
 .filter {
     font-weight: bold;
     margin-top: 0px;
-    padding-left: 0px;
 }
 
 .circleAroundIcon {
     background-color: #DEEBFF;
     border-radius: 50%;
     border-color: blue;
-    height: 24px;
-    width: 24px;
     align-items: center;
     justify-content: center;
-    padding: 11px;
+    padding: 9px;
+    padding-top: 6px;
     color: #0065FC;
 }
 
 .titleCircleAroundIcon {
-    margin-left: -15px;
-    padding-left: 20px;
-    padding-right: 19px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-left: -17px;
+    padding-left: 23px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 9px;
     border: 1px solid #F2F2F2;
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
     border-left: none;
     color: black;
     font-weight: bold;
-    font-size: 90%;
+    font-size: 85%;
+}
+
+.titleCircleAroundIcon:hover {
+    color: #0065FC;
 }
 
 .circleInfoBlue {
@@ -288,89 +223,78 @@ h5 {
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    padding: 3px;
-    padding-top: 1px;
+    padding: 1px;
+    padding-top: 0px;
     color: #0065FC;
 }
 
 .iconsearch {
     background-color: #F2F2F2;
     color: Black;
-    padding-left: 34%;
-    margin-left: 0;
-    height: 82%;
+    height: 70%;
+    padding-top: 16%;
+    padding-left: 41%;
+    margin-left: 0px;
+    padding-bottom: 0px;
     border-bottom-left-radius: 7px;
     border-top-left-radius: 7px;
 }
 
-.iconsearch>i {
-    padding-bottom: 0;
+.iconsearchButton {
+    visibility: hidden;
 }
 
 #buttonsearch {
     grid-column-start: 3;
     background-color: #0065FC;
-    margin-left: 0%;
     color: white;
-    width: 95%;
-    height: 99%;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
+    width: 34%;
+    height: 87%;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
     border: none;
 }
 
 input {
-    width: 100%;
-    height: 77%;
+    width: 96%;
+    height: 75%;
     border-color: #F2F2F2;
 }
 
 .pictureButton1 {
     border: 0px;
     background-color: white;
-    padding-left: 0;
 }
 
-/************************************************************************************************/
+/****************************************************** LODGING ****************************************************************************/
 
 .lodging {
     display: grid;
-    grid-template-rows: 104% 107%;
-    margin-top: 5%;
-    display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 70% 30%;
+    margin-top: 6%;
 }
 
 .box1 {
-    margin-top: -142%;
-    grid-row-start: 2;
+    grid-column-start: 1;
     display: grid;
-    grid-template-rows: 4% 96%;
-    display: grid;
-    grid-template-columns: 100%;
-    background-color: white;
+    grid-template-rows: 10% 80% 10%;
+    background-color: #F2F2F2;
+    height: 70%;
     position: relative;
-    margin-left: 0;
-    margin-right: 0;
+    margin-right: 5%;
+    margin-left: 5%;
     border-radius: 10px;
-    width: 100%;
-    height: 90%;
 }
 
 .box2 {
-    margin-top: 0%;
-    grid-column-start: 1;
-    grid-row-start: 1;
-    display: grid;
-    grid-template-columns: 100%;
+    grid-column-start: 2;
     display: grid;
     grid-template-rows: 10% 30% 30% 30%;
+    height: 70%;
     background-color: #F2F2F2;
     position: relative;
-    border-radius: 0px;
-    height: 50%;
-    width: 105%;
-    margin-left: -3%;
+    border-radius: 10px;
+    margin-right: 5%;
 }
 
 /******************************************************************BOX 1********************************************************************/
@@ -380,118 +304,87 @@ input {
     position: relative;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    font-size: 1.6em;
+    font-size: 0.9em;
 }
 
 .containerBox1 {
     grid-row-start: 2;
     display: grid;
-    grid-template-rows: 15% 15% 15% 15% 15% 15%;
-    display: grid;
-    grid-template-columns: 100%;
-    background-color: white;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    background-color: #F2F2F2;
     position: relative;
-}
-
-.containerBox1>h1 {
-    padding: 0;
-    margin: 0;
 }
 
 .box1-1 {
-    grid-row-start: 1;
-    grid-column-start: 1;
     background-color: white;
     height: 95%;
-    width: 96%;
+    width: 80%;
     position: relative;
-    margin-left: 2%;
-    width: 90%;
-    height: 160px;
+    margin-left: 15%;
     border-radius: 10px;
     padding: 1%;
-    box-shadow: 8px 8px 12px #aaa;
 }
 
 .box1-2 {
-    grid-row-start: 2;
-    grid-column-start: 1;
     background-color: white;
-    margin-top: 8px;
     height: 95%;
-    width: 90%;
+    width: 80%;
     position: relative;
-    margin-left: 2%;
-    height: 160px;
-    margin-bottom: 5%;
+    margin-left: 10%;
     border-radius: 10px;
     padding: 1%;
-    box-shadow: 8px 8px 12px #aaa;
 }
 
 .box1-3 {
     background-color: white;
-    margin-top: 16px;
     height: 95%;
-    width: 90%;
+    width: 80%;
     position: relative;
-    margin-left: 2%;
-    height: 160px;
-    margin-bottom: 5%;
+    margin-left: 5%;
     border-radius: 10px;
     padding: 1%;
-    box-shadow: 8px 8px 12px #aaa;
 }
 
 .box1-4 {
     background-color: white;
-    margin-top: 25px;
     height: 95%;
+    width: 80%;
     position: relative;
-    margin-left: 2%;
-    width: 90%;
-    height: 160px;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-left: 15%;
     border-radius: 10px;
     padding: 1%;
-    box-shadow: 8px 8px 12px #aaa;
 }
 
 .box1-5 {
     background-color: white;
-    margin-top: 34px;
     height: 95%;
+    width: 80%;
     position: relative;
-    margin-left: 2%;
-    width: 90%;
-    height: 160px;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-left: 10%;
     border-radius: 10px;
     padding: 1%;
-    box-shadow: 8px 8px 12px #aaa;
 }
 
 .box1-6 {
     background-color: white;
-    margin-top: 44px;
     height: 95%;
-    width: 90%;
+    width: 80%;
     position: relative;
-    margin-left: 2%;
-    height: 160px;
-    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-left: 5%;
     border-radius: 10px;
     padding: 1%;
-    box-shadow: 8px 8px 12px #aaa;
 }
 
 .box1-end {
     grid-row-start: 3;
     position: relative;
-    margin-top: -9%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    font-size: 1.6em;
+    font-size: 0.9em;
 }
 
 /******************************************************************BOX 2********************************************************************/
@@ -504,38 +397,33 @@ input {
     grid-template-columns: 80% 20%;
 }
 
+.box2-title-sentence>h1 {
+    margin-bottom: 0%;
+    font-size: 0.9em;
+}
+
 .box2-title-sentence {
     grid-column-start: 1;
-    grid-column-start: 1;
-    font-size: 180%;
-    padding-top: 2%;
 }
 
 .box2-title-icon {
     grid-column-start: 2;
     position: relative;
-    padding-top: 16%;
-    padding-left: 33%;
-    padding-left: 33%;
-}
-
-.box2-title-icon>i {
-    width: 1%;
-    height: 10%;
+    padding-top: 6%;
+    padding-left: 20%;
 }
 
 .box2-1 {
     grid-row-start: 2;
     display: grid;
-    grid-template-columns: 34% 49%;
+    grid-template-columns: 40% 60%;
     border-radius: 10px;
     position: relative;
     background-color: white;
     margin-left: 5%;
     padding: 1%;
     margin-right: 5%;
-    width: 90%;
-    height: 160px;
+    margin-bottom: 3%;
 }
 
 .box2-1-1 {
@@ -546,21 +434,20 @@ input {
 .box2-1-2 {
     grid-column-start: 2;
     position: relative;
+    overflow: hidden;
 }
 
 .box2-2 {
     grid-row-start: 3;
     display: grid;
-    grid-template-columns: 34% 49%;
+    grid-template-columns: 40% 60%;
     border-radius: 10px;
     padding: 1%;
     position: relative;
     background-color: white;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 0%;
-    width: 90%;
-    height: 160px;
+    margin-Bottom: 3%;
 }
 
 .box2-2-1 {
@@ -569,21 +456,22 @@ input {
 
 .box2-2-2 {
     grid-column-start: 2;
+    overflow: hidden;
 }
 
 .box2-3 {
+
     grid-row-start: 4;
     display: grid;
-    grid-template-columns: 34% 49%;
+    overflow: hidden;
+    grid-template-columns: 40% 60%;
     border-radius: 10px;
     padding: 1%;
     position: relative;
     background-color: white;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 0%;
-    width: 90%;
-    height: 160px;
+    margin-Bottom: 3%;
 }
 
 .box2-3-1 {
@@ -592,6 +480,53 @@ input {
 
 .box2-3-2 {
     grid-column-start: 2;
+}
+
+/***********************************************************SURVOL DIV HOVER*******************************************************/
+
+.box1-1:hover {
+    border-color: #0065FC;
+    border-style: dotted;
+}
+
+.box1-2:hover {
+    border-color: #0065FC;
+    border-style: dotted;
+}
+
+.box1-3:hover {
+    border-color: #0065FC;
+    border-style: dotted;
+}
+
+.box1-4:hover {
+    border-color: #0065FC;
+    border-style: dotted;
+}
+
+.box1-5:hover {
+    border-color: #0065FC;
+    border-style: dotted;
+}
+
+.box1-6:hover {
+    border-color: #0065FC;
+    border-style: dotted;
+}
+
+.box2-1:hover {
+    border-color: #0065FC;
+    border-style: dotted;
+}
+
+.box2-2:hover {
+    border-color: #0065FC;
+    border-style: dotted;
+}
+
+.box2-3:hover {
+    border-color: #0065FC;
+    border-style: dotted;
 }
 
 /***********************************************************PICTURES*******************************************************/
@@ -680,7 +615,7 @@ input {
 
 .box2-3-1>img {
     width: 99%;
-    height: 68%;
+    height: 66%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     object-fit: cover;
@@ -701,83 +636,74 @@ input {
 }
 
 .figcaption1 {
-    padding-top: 0%;
-    padding-left: 1%;
+    padding-top: 7px;
+    padding-left: 4px;
     padding-bottom: 0px;
     margin-bottom: 0px;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 0.8em;
 }
 
 .figcaption2 {
     font-weight: bold;
-    padding-top: 5%;
-    padding-left: 0%;
+    padding-top: 5px;
+    padding-left: 1px;
     padding-bottom: 0px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
-    font-size: 1.3em;
+    font-size: 0.8em;
 }
 
 .sub-figcaption2 {
-    padding-left: 0px;
+    padding-left: 1px;
 }
 
 .lodging p {
-    margin-top: 1%;
+    margin-top: 2px;
     margin-bottom: 0px;
     text-align: left;
-    padding-left: 1%;
+    padding-left: 3px;
     padding-top: 0px;
-    font-size: 1.1em;
+    font-size: 0.8em;
 }
 
-/**************************************************************************************************/
+.lodginga {
+    color: black;
+}
+
+/*************************************************ACTIVITIES*******************************************************************/
 
 .activities {
-    margin-left: 0%;
-    position: relative;
+    margin-left: 2%;
+    margin-top: 0%;
 }
 
 .activites-title {
-    margin-left: 4%;
-    margin-top: 5%;
-    font-size: 1.8em;
-}
-
-.box3 {
-    margin-top: 170%;
-    display: grid;
-    grid-template-rows: 100%;
-    grid-template-columns: 100%;
+    margin-left: 2%;
+    margin-top: -14%;
 }
 
 .activites-title {
     grid-row-start: 1;
+    font-size: 1em;
 }
 
 .containerActivites {
     grid-row-start: 2;
     display: grid;
-    grid-template-rows: 13% 13% 13% 13% 13% 13%;
-    grid-template-columns: 100%;
-    margin-left: 1%;
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
 .box3-1 {
-    grid-row-start: 1;
     grid-column-start: 1;
     display: grid;
-    grid-template-rows: 80% 20%;
-    padding-top: 0%;
-    padding-right: 0%;
-    padding-bottom: 0%;
-    width: 100%;
-    margin-left: 2%;
-    width: 90%;
-    height: 160px;
+    grid-template-rows: 90% 10%;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    height: 70%;
 }
 
 .box3-1-1 {
@@ -799,28 +725,24 @@ input {
     border-left-style: solid;
     border-right: solid;
     border-color: #F2F2F2;
+    padding-top: 8px;
 }
 
 .box3-2 {
-    grid-column-start: 1;
-    display: block;
-    grid-template-rows: 80% 20%;
-    height: 100%;
-    width: 100%;
+    grid-column-start: 2;
+    display: grid;
+    grid-template-rows: 60% 40%;
+    height: 72%;
 }
 
 .box3-2-1 {
-    grid-row-start: 2;
-    margin-top: 0%;
+    grid-row-start: 1;
     display: grid;
     grid-template-rows: 80% 20%;
-    margin-left: 2%;
-    width: 90%;
-    height: 160px;
-    padding-top: 0%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
     overflow: hidden;
-    margin-left: 2%;
-    padding-left: 0%;
 }
 
 .box3-2-1-1 {
@@ -842,21 +764,16 @@ input {
     border-left-style: solid;
     border-right: solid;
     border-color: #F2F2F2;
+    padding-top: 8px;
 }
 
 .box3-2-2 {
-    grid-row-start: 3;
-    grid-column-start: 1;
+    grid-row-start: 2;
     display: grid;
-    grid-template-rows: 80% 20%;
-    margin-left: 2%;
-    width: 90%;
-    height: 160px;
-    padding-top: 2%;
-    padding-left: 0%;
-    padding-right: 0%;
-    margin-top: 0%;
-    margin-top: 0%;
+    grid-template-rows: 73% 27%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .box3-2-2-1 {
@@ -878,21 +795,15 @@ input {
     border-left-style: solid;
     border-right: solid;
     border-color: #F2F2F2;
+    padding-top: 8px;
 }
 
 .box3-3 {
-    grid-row-start: 4;
-    grid-column-start: 1;
+    grid-column-start: 3;
     display: grid;
-    grid-template-rows: 80% 20%;
-    margin-left: 2%;
-    width: 90%;
-    height: 160px;
-    padding-top: 0%;
-    padding-bottom: 0;
-    padding-left: 0%;
-    padding-right: 0;
-    margin-top: 0%;
+    grid-template-rows: 90% 10%;
+    padding: 5%;
+    height: 70%;
 }
 
 .box3-3-1 {
@@ -903,8 +814,6 @@ input {
     border-top-right-radius: 12px;
     border-right: solid;
     border-color: #F2F2F2;
-    width: 99%;
-    margin-left: 0%;
 }
 
 .box3-3-2 {
@@ -915,28 +824,24 @@ input {
     border-bottom-style: solid;
     border-left-style: solid;
     border-right: solid;
-    margin-left: 0%;
     border-color: #F2F2F2;
-    width: 99%;
+    padding-top: 8px;
 }
 
 .box3-4 {
-    grid-column-start: 1;
-    display: block;
-    height: 85%;
+    grid-column-start: 4;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    height: 72%;
 }
 
 .box3-4-1 {
-    grid-row-start: 5;
+    grid-row-start: 1;
     display: grid;
     grid-template-rows: 80% 20%;
-    margin-left: 2%;
-    width: 90%;
-    height: 160px;
-    padding-top: 0%;
-    padding-left: 0%;
-    padding-right: 0%;
-    margin-top: 80%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .box3-4-1-1 {
@@ -958,17 +863,16 @@ input {
     border-left-style: solid;
     border-right: solid;
     border-color: #F2F2F2;
+    padding-top: 8px;
 }
 
 .box3-4-2 {
-    grid-row-start: 6;
+    grid-row-start: 2;
     display: grid;
     grid-template-rows: 80% 20%;
-    margin-left: 2%;
-    width: 90%;
-    height: 160px;
-    padding-top: 3%;
-    padding-left: 0%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .box3-4-2-1 {
@@ -990,6 +894,7 @@ input {
     border-left-style: solid;
     border-right: solid;
     border-color: #F2F2F2;
+    padding-top: 8px;
 }
 
 .box3-1-1>img {
@@ -1040,66 +945,99 @@ input {
     object-fit: cover;
 }
 
-figcaption {
-    font-weight: bold;
-    padding-left: 3%;
-    padding-top: 1%;
-    font-size: 1em;
-}
-
 .titleActivities {
     font-weight: bold;
     padding-left: 11px;
-    font-size: 1em;
+    font-size: 0.77em;
+}
+
+/*****************************************************************HOVER***************************************************/
+
+.box3-1:hover {
+    border-color: #0065FC;
+    border-style: solid;
+    border: 2px;
+    background: #F4F0EF;
+    border-radius: 10px;
+}
+
+.box3-2-1:hover {
+    border-color: #0065FC;
+    border-style: solid;
+    border: 2px;
+    background: #F4F0EF;
+    border-radius: 10px;
+}
+
+.box3-2-2:hover {
+    border-color: #0065FC;
+    border-style: solid;
+    border: 2px;
+    background: #F4F0EF;
+    border-radius: 10px;
+}
+
+.box3-3:hover {
+    border-color: #0065FC;
+    border-style: solid;
+    border: 2px;
+    background: #F4F0EF;
+    border-radius: 10px;
+}
+
+.box3-4-1:hover {
+    border-color: #0065FC;
+    border-style: solid;
+    border: 2px;
+    background: #F4F0EF;
+    border-radius: 10px;
+}
+
+.box3-4-2:hover {
+    border-color: #0065FC;
+    border-style: solid;
+    border: 2px;
+    background: #F4F0EF;
+    border-radius: 10px;
 }
 
 /************************************************************** FOOTER ***************************************************************/
 
 .footer {
     background-color: #F2F2F2;
-    margin-left: 0%;
-    margin-top: -43%;
+    margin-top: -12%;
 }
 
 .footer ul {
-    width: 97%;
+    width: 82%;
     line-height: 2em;
     list-style-type: none;
-    padding-left: 3%;
 }
 
 .footer li a {
     font-weight: normal;
     color: black;
-    font-size: 1em;
 }
 
 .footerList__title {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
-    margin-bottom: 1%;
+    margin-bottom: 10px;
 }
 
 .containerFooter {
-    margin-top: 0%;
-    width: 100%;
-    margin-left: 0%;
     display: grid;
-    grid-template-rows: 33.33% 33.33% 33.33%;
-    grid-template-columns: 100%;
+    grid-template-columns: 33.33% 33.33% 33.33%;
 }
 
 .box4-1 {
-    grid-row-start: 1;
     grid-column-start: 1;
 }
 
 .box4-2 {
-    grid-row-start: 2;
-    grid-column-start: 1;
+    grid-column-start: 2;
 }
 
 .box4-3 {
-    grid-row-start: 3;
-    grid-column-start: 1;
+    grid-column-start: 3;
 }
