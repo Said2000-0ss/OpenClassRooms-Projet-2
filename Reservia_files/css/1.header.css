@@ -2,7 +2,7 @@
 
 .pageHead {
     display: grid;
-    grid-template-columns: 57% 33% 10%;
+    grid-template-columns: 62% 28% 10%;
 }
 
 .pageHead__logo {

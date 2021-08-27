@@ -2,7 +2,7 @@
 
 .pageHead {
     display: grid;
-    grid-template-columns: 54% 37% 9%;
+    grid-template-columns: 60% 31% 9%;
 }
 
 .pageHead__logo {
@@ -30,7 +30,7 @@
     color: #0065FC;
     padding: 0px 0px;
     padding-left: 0px;
-    padding-top: 21%;
+    padding-top: 18%;
 }
 
 .pageHead__nav {
@@ -231,7 +231,7 @@ h5 {
 .iconsearch {
     background-color: #F2F2F2;
     color: Black;
-    height: 70%;
+    height: 65%;
     padding-top: 16%;
     padding-left: 41%;
     margin-left: 0px;
