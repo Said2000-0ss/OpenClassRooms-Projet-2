@@ -55,6 +55,7 @@
     padding-top: 3%;
     display: grid;
     grid-template-columns: 50% 50%;
+    font-size: 1.3em;
 }
 
 #pageHead__navItemLodging {
