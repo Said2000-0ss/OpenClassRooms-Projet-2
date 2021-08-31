@@ -2,7 +2,7 @@
 
 .pageHead {
     display: grid;
-    grid-template-columns: 54% 37% 9%;
+    grid-template-columns: 60% 31% 9%;
 }
 
 .pageHead__logo {
@@ -30,7 +30,7 @@
     color: #0065FC;
     padding: 0px 0px;
     padding-left: 0px;
-    padding-top: 21%;
+    padding-top: 18%;
 }
 
 .pageHead__nav {
@@ -67,7 +67,7 @@ h5 {
 .containerNavigation {
     display: grid;
     grid-template-rows: 26% 18% 40% 40% 28%;
-    padding-left: 22px;
+    padding-left: 26px;
     padding-top: 3%;
 }
 
@@ -231,7 +231,7 @@ h5 {
 .iconsearch {
     background-color: #F2F2F2;
     color: Black;
-    height: 70%;
+    height: 65%;
     padding-top: 16%;
     padding-left: 41%;
     margin-left: 0px;
@@ -671,14 +671,6 @@ input {
 
 .lodginga {
     color: black;
-}
-.starsPosition2{
-    padding-top: 20%;
-    padding-left:5%;
-}
-.starsPosition1{
-    padding-top: 16%;
-    padding-left:5%;
 }
 
 /*************************************************ACTIVITIES*******************************************************************/

@@ -67,7 +67,7 @@ h5 {
 .containerNavigation {
     display: grid;
     grid-template-rows: 26% 18% 40% 40% 28%;
-    padding-left: 22px;
+    padding-left: 23px;
     padding-top: 3%;
 }
 
@@ -671,14 +671,6 @@ input {
 
 .lodginga {
     color: black;
-}
-.starsPosition2{
-    padding-top: 20%;
-    padding-left:5%;
-}
-.starsPosition1{
-    padding-top: 16%;
-    padding-left:5%;
 }
 
 /*************************************************ACTIVITIES*******************************************************************/

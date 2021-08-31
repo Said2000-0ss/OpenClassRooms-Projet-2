@@ -14,7 +14,7 @@
     height: 70%;
     position: relative;
     margin-right: 5%;
-    margin-left: 5%;
+    margin-left: 3%;
     border-radius: 10px;
 }
 
@@ -153,6 +153,7 @@
     padding: 1%;
     margin-right: 5%;
     margin-bottom: 3%;
+    overflow:hidden;
 }
 
 .box2-1-1 {
@@ -176,6 +177,7 @@
     margin-left: 5%;
     margin-right: 5%;
     margin-Bottom: 3%;
+    overflow: hidden;
 }
 
 .box2-2-1 {
@@ -194,6 +196,7 @@
     padding: 1%;
     position: relative;
     background-color: white;
+    overflow: hidden;
     margin-left: 5%;
     margin-right: 5%;
     margin-Bottom: 3%;
@@ -210,48 +213,66 @@
 /***********************************************************SURVOL DIV HOVER*******************************************************/
 
 .box1-1:hover {
-    border-color: #0065FC;
-    border-style: dotted;
+    border-style: solid;
+    border: 2px;
+    background: #A9A9A9;
+    border-radius: 10px;
 }
 
 .box1-2:hover {
-    border-color: #0065FC;
-    border-style: dotted;
+    border-style: solid;
+    border: 2px;
+    background: #A9A9A9;
+    border-radius: 10px;
 }
 
 .box1-3:hover {
-    border-color: #0065FC;
-    border-style: dotted;
+    border-style: solid;
+    border: 2px;
+    background: #A9A9A9;
+    border-radius: 10px;
 }
 
 .box1-4:hover {
-    border-color: #0065FC;
-    border-style: dotted;
+    border-style: solid;
+    border: 2px;
+    background: #A9A9A9;
+    border-radius: 10px;
 }
 
 .box1-5:hover {
-    border-color: #0065FC;
-    border-style: dotted;
+    border-style: solid;
+    border: 2px;
+    background: #A9A9A9;
+    border-radius: 10px;
 }
 
 .box1-6:hover {
-    border-color: #0065FC;
-    border-style: dotted;
+    border-style: solid;
+    border: 2px;
+    background: #A9A9A9;
+    border-radius: 10px;
 }
 
 .box2-1:hover {
-    border-color: #0065FC;
-    border-style: dotted;
+    border-style: solid;
+    border: 2px;
+    background: #A9A9A9;
+    border-radius: 10px;
 }
 
 .box2-2:hover {
-    border-color: #0065FC;
-    border-style: dotted;
+    border-style: solid;
+    border: 2px;
+    background: #A9A9A9;
+    border-radius: 10px;
 }
 
 .box2-3:hover {
-    border-color: #0065FC;
-    border-style: dotted;
+     border-style: solid;
+    border: 2px;
+    background: #A9A9A9;
+    border-radius: 10px;
 }
 
 /***********************************************************PICTURES*******************************************************/
@@ -350,6 +371,7 @@
 
 .starblue {
     color: blue;
+   
 }
 
 .stargrey {
@@ -358,6 +380,20 @@
 
 .starsPosition {
     padding-top: 30px;
+    
+}
+.lodging .box2 p {
+    padding-top: 0px;
+   
+  
+}
+.starsPosition2{
+    padding-top: 20%;
+    padding-left:5%;
+}
+.starsPosition1{
+    padding-top: 30%;
+    padding-left:5%;
 }
 
 .figcaption1 {
@@ -370,6 +406,7 @@
 }
 
 .figcaption2 {
+    display:block;
     font-weight: bold;
     padding-top: 5px;
     padding-left: 8px;
@@ -382,7 +419,7 @@
 }
 
 .sub-figcaption2 {
-    padding-left: 9px;
+    padding-left: 0px;
 }
 
 .lodging p {
@@ -391,6 +428,7 @@
     text-align: left;
     padding-left: 10px;
     padding-top: 0px;
+    overflow: hidden;
 }
 
 .lodginga {

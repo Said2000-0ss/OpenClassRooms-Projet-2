@@ -42,9 +42,9 @@
     grid-column-start: 2;
     grid-row-start: 1;
     color: #0065FC;
-    padding-top: 6px;
-    font-size: 1.1em;
-    margin-left: -95px;
+    padding-top: 19px;
+    font-size: 1.7m;
+    margin-left: -138px;
 }
 
 .pageHead__nav {
@@ -298,7 +298,7 @@ h5 {
     color: Black;
     padding-left: 34%;
     margin-left: 0;
-    height: 82%;
+    height: 86%;
     border-bottom-left-radius: 7px;
     border-top-left-radius: 7px;
 }

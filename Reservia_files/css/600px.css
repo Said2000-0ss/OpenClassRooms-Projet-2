@@ -42,7 +42,7 @@
     grid-column-start: 2;
     grid-row-start: 1;
     color: #0065FC;
-    padding-top: 6px;
+    padding-top: 21px;
     font-size: 1.1em;
     margin-left: -95px;
 }
@@ -298,7 +298,7 @@ h5 {
     color: Black;
     padding-left: 34%;
     margin-left: 0;
-    height: 82%;
+    height: 92%;
     border-bottom-left-radius: 7px;
     border-top-left-radius: 7px;
 }
@@ -403,10 +403,10 @@ input {
     grid-column-start: 1;
     background-color: white;
     height: 95%;
-    width: 96%;
+    width: 98%;
     position: relative;
     margin-left: 2%;
-    width: 90%;
+    
     height: 160px;
     border-radius: 10px;
     padding: 1%;
@@ -479,10 +479,10 @@ input {
     background-color: white;
     margin-top: 44px;
     height: 95%;
-    width: 96%;
+   
     position: relative;
     margin-left: 2%;
-    width: 90%;
+    width: 99%;
     height: 160px;
     margin-bottom: 5%;
     border-radius: 10px;
@@ -598,7 +598,16 @@ input {
 .box2-3-2 {
     grid-column-start: 2;
 }
-
+.starsPosition2{
+    padding-top: 9%;
+    font-size: large;
+    padding-left: 0%;
+}
+.starsPosition1{
+    padding-top: 16%;
+    font-size: large;
+    padding-left: 0%;
+}
 /***********************************************************PICTURES*******************************************************/
 
 .box1-1>img {
@@ -685,7 +694,7 @@ input {
 
 .box2-3-1>img {
     width: 99%;
-    height: 51%;
+    height: 56%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     object-fit: cover;

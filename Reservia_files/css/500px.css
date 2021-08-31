@@ -55,6 +55,7 @@
     padding-top: 3%;
     display: grid;
     grid-template-columns: 50% 50%;
+    font-size: 1.3em;
 }
 
 #pageHead__navItemLodging {
@@ -298,7 +299,7 @@ h5 {
     color: Black;
     padding-left: 34%;
     margin-left: 0;
-    height: 82%;
+    height: 98%;
     border-bottom-left-radius: 7px;
     border-top-left-radius: 7px;
 }
@@ -680,7 +681,7 @@ input {
 
 .box2-3-1>img {
     width: 99%;
-    height: 51%;
+    height: 68%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     object-fit: cover;
